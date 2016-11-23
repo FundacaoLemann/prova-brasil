@@ -1,0 +1,15 @@
+{
+    "name": "meritt/inep-to-kettle",
+    "description": "An Inep To Kettle spreadsheet conversor",
+    "require": {
+        "phpoffice/phpexcel": "1.8.0"
+    },
+    "license": "Private",
+    "authors": [
+        {
+            "name": "Fernando Jorge Mota",
+            "email": "fjorgemota@meritt.com.br"
+        }
+    ],
+    "minimum-stability": "dev"
+}

@@ -1,0 +1,1 @@
+SELECT grade_id, discipline_id, level_qualitative_name, level_qualitative, GROUP_CONCAT(level_quantitative_field SEPARATOR '+') FROM level GROUP BY grade_id, discipline_id, level_qualitative ORDER BY level_qualitative ASC;
