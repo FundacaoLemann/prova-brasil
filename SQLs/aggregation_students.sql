@@ -42,12 +42,12 @@ SELECT
 	l.level_quantitative AS level_quantitative,
 	l.level_qualitative AS level_qualitative
 	FROM
-	provabrasil_2013.alunos_5ef AS a
+	pb_test_import.alunos_5ef AS a
 	LEFT JOIN waitress_entities.school AS sc ON sc.ibge_id=a.ID_ESCOLA 
 	LEFT JOIN waitress_entities.city AS c ON c.ibge_id=a.ID_MUNICIPIO
 	LEFT JOIN waitress_entities.state AS st ON st.ibge_id=a.ID_UF
-	LEFT JOIN provabrasil_2013.escolas AS es ON es.ID_ESCOLA=a.ID_ESCOLA
-	LEFT JOIN provabrasil_2013.level AS l ON l.grade_id=5 AND discipline_id=1 AND l.min <= a.PROFICIENCIA_LP_SAEB AND l.max > a.PROFICIENCIA_LP_SAEB
+	LEFT JOIN pb_test_import.escolas AS es ON es.ID_ESCOLA=a.ID_ESCOLA
+	LEFT JOIN pb_test_import.level AS l ON l.grade_id=5 AND discipline_id=1 AND l.min <= a.PROFICIENCIA_LP_SAEB AND l.max > a.PROFICIENCIA_LP_SAEB
 	WHERE a.IN_PROFICIENCIA=1;
 
 INSERT INTO aggregation_students
@@ -68,12 +68,12 @@ INSERT INTO aggregation_students
 	l.level_quantitative AS level_quantitative,
 	l.level_qualitative AS level_qualitative
 	FROM
-	provabrasil_2013.alunos_9ef AS a
+	pb_test_import.alunos_9ef AS a
 	LEFT JOIN waitress_entities.school AS sc ON sc.ibge_id=a.ID_ESCOLA 
 	LEFT JOIN waitress_entities.city AS c ON c.ibge_id=a.ID_MUNICIPIO
 	LEFT JOIN waitress_entities.state AS st ON st.ibge_id=a.ID_UF
-	LEFT JOIN provabrasil_2013.escolas AS es ON es.ID_ESCOLA=a.ID_ESCOLA
-	LEFT JOIN provabrasil_2013.level AS l ON l.grade_id=9 AND discipline_id=1 AND l.min <= a.PROFICIENCIA_LP_SAEB AND l.max > a.PROFICIENCIA_LP_SAEB
+	LEFT JOIN pb_test_import.escolas AS es ON es.ID_ESCOLA=a.ID_ESCOLA
+	LEFT JOIN pb_test_import.level AS l ON l.grade_id=9 AND discipline_id=1 AND l.min <= a.PROFICIENCIA_LP_SAEB AND l.max > a.PROFICIENCIA_LP_SAEB
 	WHERE a.IN_PROFICIENCIA=1;
 
 INSERT INTO aggregation_students
@@ -94,12 +94,12 @@ INSERT INTO aggregation_students
 	l.level_quantitative AS level_quantitative,
 	l.level_qualitative AS level_qualitative
 	FROM
-	provabrasil_2013.alunos_5ef AS a
+	pb_test_import.alunos_5ef AS a
 	LEFT JOIN waitress_entities.school AS sc ON sc.ibge_id=a.ID_ESCOLA 
 	LEFT JOIN waitress_entities.city AS c ON c.ibge_id=a.ID_MUNICIPIO
 	LEFT JOIN waitress_entities.state AS st ON st.ibge_id=a.ID_UF 
-	LEFT JOIN provabrasil_2013.escolas AS es ON es.ID_ESCOLA=a.ID_ESCOLA
-	LEFT JOIN provabrasil_2013.level AS l ON l.grade_id=5 AND discipline_id=2 AND l.min <= a.PROFICIENCIA_MT_SAEB AND l.max > a.PROFICIENCIA_MT_SAEB
+	LEFT JOIN pb_test_import.escolas AS es ON es.ID_ESCOLA=a.ID_ESCOLA
+	LEFT JOIN pb_test_import.level AS l ON l.grade_id=5 AND discipline_id=2 AND l.min <= a.PROFICIENCIA_MT_SAEB AND l.max > a.PROFICIENCIA_MT_SAEB
 	WHERE a.IN_PROFICIENCIA=1;
 
 INSERT INTO aggregation_students
@@ -120,11 +120,11 @@ INSERT INTO aggregation_students
 	l.level_quantitative AS level_quantitative,
 	l.level_qualitative AS level_qualitative
 	FROM
-	provabrasil_2013.alunos_9ef AS a
+	pb_test_import.alunos_9ef AS a
 	LEFT JOIN waitress_entities.school AS sc ON sc.ibge_id=a.ID_ESCOLA 
 	LEFT JOIN waitress_entities.city AS c ON c.ibge_id=a.ID_MUNICIPIO
 	LEFT JOIN waitress_entities.state AS st ON st.ibge_id=a.ID_UF
-	LEFT JOIN provabrasil_2013.escolas AS es ON es.ID_ESCOLA=a.ID_ESCOLA
-	LEFT JOIN provabrasil_2013.level AS l ON l.grade_id=9 AND discipline_id=2 AND l.min <= a.PROFICIENCIA_MT_SAEB AND l.max > a.PROFICIENCIA_MT_SAEB
+	LEFT JOIN pb_test_import.escolas AS es ON es.ID_ESCOLA=a.ID_ESCOLA
+	LEFT JOIN pb_test_import.level AS l ON l.grade_id=9 AND discipline_id=2 AND l.min <= a.PROFICIENCIA_MT_SAEB AND l.max > a.PROFICIENCIA_MT_SAEB
 	WHERE a.IN_PROFICIENCIA=1;
 COMMIT;
