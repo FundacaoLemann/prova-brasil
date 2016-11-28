@@ -10,6 +10,7 @@
 require("vendor/autoload.php");
 date_default_timezone_set('America/Sao_Paulo');
 set_time_limit(0);
+ini_set("memory_limit", "1G");
 /** @var ProgressBar\Manager $progress */
 $progress = null;
 if (isCLI()) {
