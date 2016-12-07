@@ -69,8 +69,6 @@
   <created_date>2015&#x2f;01&#x2f;22 13&#x3a;23&#x3a;19.817</created_date>
   <modified_user>-</modified_user>
   <modified_date>2015&#x2f;01&#x2f;22 13&#x3a;23&#x3a;19.817</modified_date>
-    <key_for_session_key>H4sIAAAAAAAAAAMAAAAAAAAAAAA&#x3d;</key_for_session_key>
-    <is_key_private>N</is_key_private>
   </info>
   <notepads>
   </notepads>
@@ -79,8 +77,8 @@
     <server>127.0.0.1</server>
     <type>MYSQL</type>
     <access>Native</access>
-    <database>pb_test_import</database>
-    <port>3307</port>
+    <database>provabrasil_2013</database>
+    <port>3306</port>
     <username>root</username>
     <password>Encrypted 2be98afc86aa7f2e4cb79a375cc9bbbce</password>
     <servername/>
@@ -92,7 +90,7 @@
       <attribute><code>FORCE_IDENTIFIERS_TO_LOWERCASE</code><attribute>N</attribute></attribute>
       <attribute><code>FORCE_IDENTIFIERS_TO_UPPERCASE</code><attribute>N</attribute></attribute>
       <attribute><code>IS_CLUSTERED</code><attribute>N</attribute></attribute>
-      <attribute><code>PORT_NUMBER</code><attribute>3307</attribute></attribute>
+      <attribute><code>PORT_NUMBER</code><attribute>3306</attribute></attribute>
       <attribute><code>PRESERVE_RESERVED_WORD_CASE</code><attribute>N</attribute></attribute>
       <attribute><code>QUOTE_ALL_FIELDS</code><attribute>N</attribute></attribute>
       <attribute><code>STREAM_RESULTS</code><attribute>Y</attribute></attribute>
@@ -134,7 +132,7 @@
         <remove_special_characters>none</remove_special_characters>
       </field>
       <field>
-        <in_stream_name>NOME DO MUNIC&#xcd;PIO</in_stream_name>
+        <in_stream_name>MUNIC&#xcd;PIO</in_stream_name>
         <out_stream_name/>
         <trim_type>both</trim_type>
         <lower_upper>none</lower_upper>
@@ -172,11 +170,570 @@
         <digits>none</digits>
         <remove_special_characters>none</remove_special_characters>
       </field>
+      <field>
+        <in_stream_name>M&#xc9;DIAS DE PROFICI&#xca;NCIA - ANOS INICIAIS - 5&#xba; ANO - L&#xcd;NGUA PORTUGUESA</in_stream_name>
+        <out_stream_name/>
+        <trim_type>both</trim_type>
+        <lower_upper>none</lower_upper>
+        <padding_type>none</padding_type>
+        <pad_char/>
+        <pad_len/>
+        <init_cap>no</init_cap>
+        <mask_xml>none</mask_xml>
+        <digits>none</digits>
+        <remove_special_characters>none</remove_special_characters>
+      </field>
+      <field>
+        <in_stream_name>M&#xc9;DIAS DE PROFICI&#xca;NCIA - ANOS INICIAIS - 5&#xba; ANO - MATEM&#xc1;TICA</in_stream_name>
+        <out_stream_name/>
+        <trim_type>both</trim_type>
+        <lower_upper>none</lower_upper>
+        <padding_type>none</padding_type>
+        <pad_char/>
+        <pad_len/>
+        <init_cap>no</init_cap>
+        <mask_xml>none</mask_xml>
+        <digits>none</digits>
+        <remove_special_characters>none</remove_special_characters>
+      </field>
+      <field>
+        <in_stream_name>M&#xc9;DIAS DE PROFICI&#xca;NCIA - ANOS FINAIS  - 9&#xba; ANO - L&#xcd;NGUA PORTUGUESA</in_stream_name>
+        <out_stream_name/>
+        <trim_type>both</trim_type>
+        <lower_upper>none</lower_upper>
+        <padding_type>none</padding_type>
+        <pad_char/>
+        <pad_len/>
+        <init_cap>no</init_cap>
+        <mask_xml>none</mask_xml>
+        <digits>none</digits>
+        <remove_special_characters>none</remove_special_characters>
+      </field>
+      <field>
+        <in_stream_name>M&#xc9;DIAS DE PROFICI&#xca;NCIA - ANOS FINAIS  - 9&#xba; ANO - MATEM&#xc1;TICA</in_stream_name>
+        <out_stream_name/>
+        <trim_type>both</trim_type>
+        <lower_upper>none</lower_upper>
+        <padding_type>none</padding_type>
+        <pad_char/>
+        <pad_len/>
+        <init_cap>no</init_cap>
+        <mask_xml>none</mask_xml>
+        <digits>none</digits>
+        <remove_special_characters>none</remove_special_characters>
+      </field>
+      <field>
+        <in_stream_name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS INICIAIS - 5&#xba; ANO - L&#xcd;NGUA PORTUGUESA - At&#xe9; N&#xed;vel 1</in_stream_name>
+        <out_stream_name/>
+        <trim_type>both</trim_type>
+        <lower_upper>none</lower_upper>
+        <padding_type>none</padding_type>
+        <pad_char/>
+        <pad_len/>
+        <init_cap>no</init_cap>
+        <mask_xml>none</mask_xml>
+        <digits>none</digits>
+        <remove_special_characters>none</remove_special_characters>
+      </field>
+      <field>
+        <in_stream_name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS INICIAIS - 5&#xba; ANO - L&#xcd;NGUA PORTUGUESA - N&#xed;vel 2</in_stream_name>
+        <out_stream_name/>
+        <trim_type>both</trim_type>
+        <lower_upper>none</lower_upper>
+        <padding_type>none</padding_type>
+        <pad_char/>
+        <pad_len/>
+        <init_cap>no</init_cap>
+        <mask_xml>none</mask_xml>
+        <digits>none</digits>
+        <remove_special_characters>none</remove_special_characters>
+      </field>
+      <field>
+        <in_stream_name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS INICIAIS - 5&#xba; ANO - L&#xcd;NGUA PORTUGUESA - N&#xed;vel 3</in_stream_name>
+        <out_stream_name/>
+        <trim_type>both</trim_type>
+        <lower_upper>none</lower_upper>
+        <padding_type>none</padding_type>
+        <pad_char/>
+        <pad_len/>
+        <init_cap>no</init_cap>
+        <mask_xml>none</mask_xml>
+        <digits>none</digits>
+        <remove_special_characters>none</remove_special_characters>
+      </field>
+      <field>
+        <in_stream_name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS INICIAIS - 5&#xba; ANO - L&#xcd;NGUA PORTUGUESA - N&#xed;vel 4</in_stream_name>
+        <out_stream_name/>
+        <trim_type>both</trim_type>
+        <lower_upper>none</lower_upper>
+        <padding_type>none</padding_type>
+        <pad_char/>
+        <pad_len/>
+        <init_cap>no</init_cap>
+        <mask_xml>none</mask_xml>
+        <digits>none</digits>
+        <remove_special_characters>none</remove_special_characters>
+      </field>
+      <field>
+        <in_stream_name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS INICIAIS - 5&#xba; ANO - L&#xcd;NGUA PORTUGUESA - N&#xed;vel 5</in_stream_name>
+        <out_stream_name/>
+        <trim_type>both</trim_type>
+        <lower_upper>none</lower_upper>
+        <padding_type>none</padding_type>
+        <pad_char/>
+        <pad_len/>
+        <init_cap>no</init_cap>
+        <mask_xml>none</mask_xml>
+        <digits>none</digits>
+        <remove_special_characters>none</remove_special_characters>
+      </field>
+      <field>
+        <in_stream_name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS INICIAIS - 5&#xba; ANO - L&#xcd;NGUA PORTUGUESA - N&#xed;vel 6</in_stream_name>
+        <out_stream_name/>
+        <trim_type>both</trim_type>
+        <lower_upper>none</lower_upper>
+        <padding_type>none</padding_type>
+        <pad_char/>
+        <pad_len/>
+        <init_cap>no</init_cap>
+        <mask_xml>none</mask_xml>
+        <digits>none</digits>
+        <remove_special_characters>none</remove_special_characters>
+      </field>
+      <field>
+        <in_stream_name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS INICIAIS - 5&#xba; ANO - L&#xcd;NGUA PORTUGUESA - N&#xed;vel 7</in_stream_name>
+        <out_stream_name/>
+        <trim_type>both</trim_type>
+        <lower_upper>none</lower_upper>
+        <padding_type>none</padding_type>
+        <pad_char/>
+        <pad_len/>
+        <init_cap>no</init_cap>
+        <mask_xml>none</mask_xml>
+        <digits>none</digits>
+        <remove_special_characters>none</remove_special_characters>
+      </field>
+      <field>
+        <in_stream_name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS INICIAIS - 5&#xba; ANO - L&#xcd;NGUA PORTUGUESA - N&#xed;vel 8</in_stream_name>
+        <out_stream_name/>
+        <trim_type>both</trim_type>
+        <lower_upper>none</lower_upper>
+        <padding_type>none</padding_type>
+        <pad_char/>
+        <pad_len/>
+        <init_cap>no</init_cap>
+        <mask_xml>none</mask_xml>
+        <digits>none</digits>
+        <remove_special_characters>none</remove_special_characters>
+      </field>
+      <field>
+        <in_stream_name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS INICIAIS - 5&#xba; ANO - L&#xcd;NGUA PORTUGUESA - N&#xed;vel 9</in_stream_name>
+        <out_stream_name/>
+        <trim_type>both</trim_type>
+        <lower_upper>none</lower_upper>
+        <padding_type>none</padding_type>
+        <pad_char/>
+        <pad_len/>
+        <init_cap>no</init_cap>
+        <mask_xml>none</mask_xml>
+        <digits>none</digits>
+        <remove_special_characters>none</remove_special_characters>
+      </field>
+      <field>
+        <in_stream_name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS INICIAIS - 5&#xba; ANO - MATEM&#xc1;TICA - Abaixo do N&#xed;vel 1</in_stream_name>
+        <out_stream_name/>
+        <trim_type>both</trim_type>
+        <lower_upper>none</lower_upper>
+        <padding_type>none</padding_type>
+        <pad_char/>
+        <pad_len/>
+        <init_cap>no</init_cap>
+        <mask_xml>none</mask_xml>
+        <digits>none</digits>
+        <remove_special_characters>none</remove_special_characters>
+      </field>
+      <field>
+        <in_stream_name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS INICIAIS - 5&#xba; ANO - MATEM&#xc1;TICA - N&#xed;vel 1</in_stream_name>
+        <out_stream_name/>
+        <trim_type>both</trim_type>
+        <lower_upper>none</lower_upper>
+        <padding_type>none</padding_type>
+        <pad_char/>
+        <pad_len/>
+        <init_cap>no</init_cap>
+        <mask_xml>none</mask_xml>
+        <digits>none</digits>
+        <remove_special_characters>none</remove_special_characters>
+      </field>
+      <field>
+        <in_stream_name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS INICIAIS - 5&#xba; ANO - MATEM&#xc1;TICA - N&#xed;vel 2</in_stream_name>
+        <out_stream_name/>
+        <trim_type>both</trim_type>
+        <lower_upper>none</lower_upper>
+        <padding_type>none</padding_type>
+        <pad_char/>
+        <pad_len/>
+        <init_cap>no</init_cap>
+        <mask_xml>none</mask_xml>
+        <digits>none</digits>
+        <remove_special_characters>none</remove_special_characters>
+      </field>
+      <field>
+        <in_stream_name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS INICIAIS - 5&#xba; ANO - MATEM&#xc1;TICA - N&#xed;vel 3</in_stream_name>
+        <out_stream_name/>
+        <trim_type>both</trim_type>
+        <lower_upper>none</lower_upper>
+        <padding_type>none</padding_type>
+        <pad_char/>
+        <pad_len/>
+        <init_cap>no</init_cap>
+        <mask_xml>none</mask_xml>
+        <digits>none</digits>
+        <remove_special_characters>none</remove_special_characters>
+      </field>
+      <field>
+        <in_stream_name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS INICIAIS - 5&#xba; ANO - MATEM&#xc1;TICA - N&#xed;vel 4</in_stream_name>
+        <out_stream_name/>
+        <trim_type>both</trim_type>
+        <lower_upper>none</lower_upper>
+        <padding_type>none</padding_type>
+        <pad_char/>
+        <pad_len/>
+        <init_cap>no</init_cap>
+        <mask_xml>none</mask_xml>
+        <digits>none</digits>
+        <remove_special_characters>none</remove_special_characters>
+      </field>
+      <field>
+        <in_stream_name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS INICIAIS - 5&#xba; ANO - MATEM&#xc1;TICA - N&#xed;vel 5</in_stream_name>
+        <out_stream_name/>
+        <trim_type>both</trim_type>
+        <lower_upper>none</lower_upper>
+        <padding_type>none</padding_type>
+        <pad_char/>
+        <pad_len/>
+        <init_cap>no</init_cap>
+        <mask_xml>none</mask_xml>
+        <digits>none</digits>
+        <remove_special_characters>none</remove_special_characters>
+      </field>
+      <field>
+        <in_stream_name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS INICIAIS - 5&#xba; ANO - MATEM&#xc1;TICA - N&#xed;vel 6</in_stream_name>
+        <out_stream_name/>
+        <trim_type>both</trim_type>
+        <lower_upper>none</lower_upper>
+        <padding_type>none</padding_type>
+        <pad_char/>
+        <pad_len/>
+        <init_cap>no</init_cap>
+        <mask_xml>none</mask_xml>
+        <digits>none</digits>
+        <remove_special_characters>none</remove_special_characters>
+      </field>
+      <field>
+        <in_stream_name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS INICIAIS - 5&#xba; ANO - MATEM&#xc1;TICA - N&#xed;vel 7</in_stream_name>
+        <out_stream_name/>
+        <trim_type>both</trim_type>
+        <lower_upper>none</lower_upper>
+        <padding_type>none</padding_type>
+        <pad_char/>
+        <pad_len/>
+        <init_cap>no</init_cap>
+        <mask_xml>none</mask_xml>
+        <digits>none</digits>
+        <remove_special_characters>none</remove_special_characters>
+      </field>
+      <field>
+        <in_stream_name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS INICIAIS - 5&#xba; ANO - MATEM&#xc1;TICA - N&#xed;vel 8</in_stream_name>
+        <out_stream_name/>
+        <trim_type>both</trim_type>
+        <lower_upper>none</lower_upper>
+        <padding_type>none</padding_type>
+        <pad_char/>
+        <pad_len/>
+        <init_cap>no</init_cap>
+        <mask_xml>none</mask_xml>
+        <digits>none</digits>
+        <remove_special_characters>none</remove_special_characters>
+      </field>
+      <field>
+        <in_stream_name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS INICIAIS - 5&#xba; ANO - MATEM&#xc1;TICA - N&#xed;vel 9</in_stream_name>
+        <out_stream_name/>
+        <trim_type>both</trim_type>
+        <lower_upper>none</lower_upper>
+        <padding_type>none</padding_type>
+        <pad_char/>
+        <pad_len/>
+        <init_cap>no</init_cap>
+        <mask_xml>none</mask_xml>
+        <digits>none</digits>
+        <remove_special_characters>none</remove_special_characters>
+      </field>
+      <field>
+        <in_stream_name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS INICIAIS - 5&#xba; ANO - MATEM&#xc1;TICA - N&#xed;vel 10</in_stream_name>
+        <out_stream_name/>
+        <trim_type>both</trim_type>
+        <lower_upper>none</lower_upper>
+        <padding_type>none</padding_type>
+        <pad_char/>
+        <pad_len/>
+        <init_cap>no</init_cap>
+        <mask_xml>none</mask_xml>
+        <digits>none</digits>
+        <remove_special_characters>none</remove_special_characters>
+      </field>
+      <field>
+        <in_stream_name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS FINAIS - 9&#xba; ANO - L&#xcd;NGUA PORTUGUESA - Abaixo do N&#xed;vel 1</in_stream_name>
+        <out_stream_name/>
+        <trim_type>both</trim_type>
+        <lower_upper>none</lower_upper>
+        <padding_type>none</padding_type>
+        <pad_char/>
+        <pad_len/>
+        <init_cap>no</init_cap>
+        <mask_xml>none</mask_xml>
+        <digits>none</digits>
+        <remove_special_characters>none</remove_special_characters>
+      </field>
+      <field>
+        <in_stream_name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS FINAIS - 9&#xba; ANO - L&#xcd;NGUA PORTUGUESA - N&#xed;vel 1</in_stream_name>
+        <out_stream_name/>
+        <trim_type>both</trim_type>
+        <lower_upper>none</lower_upper>
+        <padding_type>none</padding_type>
+        <pad_char/>
+        <pad_len/>
+        <init_cap>no</init_cap>
+        <mask_xml>none</mask_xml>
+        <digits>none</digits>
+        <remove_special_characters>none</remove_special_characters>
+      </field>
+      <field>
+        <in_stream_name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS FINAIS - 9&#xba; ANO - L&#xcd;NGUA PORTUGUESA - N&#xed;vel 2</in_stream_name>
+        <out_stream_name/>
+        <trim_type>both</trim_type>
+        <lower_upper>none</lower_upper>
+        <padding_type>none</padding_type>
+        <pad_char/>
+        <pad_len/>
+        <init_cap>no</init_cap>
+        <mask_xml>none</mask_xml>
+        <digits>none</digits>
+        <remove_special_characters>none</remove_special_characters>
+      </field>
+      <field>
+        <in_stream_name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS FINAIS - 9&#xba; ANO - L&#xcd;NGUA PORTUGUESA - N&#xed;vel 3</in_stream_name>
+        <out_stream_name/>
+        <trim_type>both</trim_type>
+        <lower_upper>none</lower_upper>
+        <padding_type>none</padding_type>
+        <pad_char/>
+        <pad_len/>
+        <init_cap>no</init_cap>
+        <mask_xml>none</mask_xml>
+        <digits>none</digits>
+        <remove_special_characters>none</remove_special_characters>
+      </field>
+      <field>
+        <in_stream_name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS FINAIS - 9&#xba; ANO - L&#xcd;NGUA PORTUGUESA - N&#xed;vel 4</in_stream_name>
+        <out_stream_name/>
+        <trim_type>both</trim_type>
+        <lower_upper>none</lower_upper>
+        <padding_type>none</padding_type>
+        <pad_char/>
+        <pad_len/>
+        <init_cap>no</init_cap>
+        <mask_xml>none</mask_xml>
+        <digits>none</digits>
+        <remove_special_characters>none</remove_special_characters>
+      </field>
+      <field>
+        <in_stream_name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS FINAIS - 9&#xba; ANO - L&#xcd;NGUA PORTUGUESA - N&#xed;vel 5</in_stream_name>
+        <out_stream_name/>
+        <trim_type>both</trim_type>
+        <lower_upper>none</lower_upper>
+        <padding_type>none</padding_type>
+        <pad_char/>
+        <pad_len/>
+        <init_cap>no</init_cap>
+        <mask_xml>none</mask_xml>
+        <digits>none</digits>
+        <remove_special_characters>none</remove_special_characters>
+      </field>
+      <field>
+        <in_stream_name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS FINAIS - 9&#xba; ANO - L&#xcd;NGUA PORTUGUESA - N&#xed;vel 6</in_stream_name>
+        <out_stream_name/>
+        <trim_type>both</trim_type>
+        <lower_upper>none</lower_upper>
+        <padding_type>none</padding_type>
+        <pad_char/>
+        <pad_len/>
+        <init_cap>no</init_cap>
+        <mask_xml>none</mask_xml>
+        <digits>none</digits>
+        <remove_special_characters>none</remove_special_characters>
+      </field>
+      <field>
+        <in_stream_name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS FINAIS - 9&#xba; ANO - L&#xcd;NGUA PORTUGUESA - N&#xed;vel 7</in_stream_name>
+        <out_stream_name/>
+        <trim_type>both</trim_type>
+        <lower_upper>none</lower_upper>
+        <padding_type>none</padding_type>
+        <pad_char/>
+        <pad_len/>
+        <init_cap>no</init_cap>
+        <mask_xml>none</mask_xml>
+        <digits>none</digits>
+        <remove_special_characters>none</remove_special_characters>
+      </field>
+      <field>
+        <in_stream_name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS FINAIS - 9&#xba; ANO - L&#xcd;NGUA PORTUGUESA - N&#xed;vel 8</in_stream_name>
+        <out_stream_name/>
+        <trim_type>both</trim_type>
+        <lower_upper>none</lower_upper>
+        <padding_type>none</padding_type>
+        <pad_char/>
+        <pad_len/>
+        <init_cap>no</init_cap>
+        <mask_xml>none</mask_xml>
+        <digits>none</digits>
+        <remove_special_characters>none</remove_special_characters>
+      </field>
+      <field>
+        <in_stream_name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS FINAIS - 9&#xba; ANO - MATEM&#xc1;TICA - Abaixo do N&#xed;vel 1</in_stream_name>
+        <out_stream_name/>
+        <trim_type>both</trim_type>
+        <lower_upper>none</lower_upper>
+        <padding_type>none</padding_type>
+        <pad_char/>
+        <pad_len/>
+        <init_cap>no</init_cap>
+        <mask_xml>none</mask_xml>
+        <digits>none</digits>
+        <remove_special_characters>none</remove_special_characters>
+      </field>
+      <field>
+        <in_stream_name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS FINAIS - 9&#xba; ANO - MATEM&#xc1;TICA - N&#xed;vel 1</in_stream_name>
+        <out_stream_name/>
+        <trim_type>both</trim_type>
+        <lower_upper>none</lower_upper>
+        <padding_type>none</padding_type>
+        <pad_char/>
+        <pad_len/>
+        <init_cap>no</init_cap>
+        <mask_xml>none</mask_xml>
+        <digits>none</digits>
+        <remove_special_characters>none</remove_special_characters>
+      </field>
+      <field>
+        <in_stream_name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS FINAIS - 9&#xba; ANO - MATEM&#xc1;TICA - N&#xed;vel 2</in_stream_name>
+        <out_stream_name/>
+        <trim_type>both</trim_type>
+        <lower_upper>none</lower_upper>
+        <padding_type>none</padding_type>
+        <pad_char/>
+        <pad_len/>
+        <init_cap>no</init_cap>
+        <mask_xml>none</mask_xml>
+        <digits>none</digits>
+        <remove_special_characters>none</remove_special_characters>
+      </field>
+      <field>
+        <in_stream_name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS FINAIS - 9&#xba; ANO - MATEM&#xc1;TICA - N&#xed;vel 3</in_stream_name>
+        <out_stream_name/>
+        <trim_type>both</trim_type>
+        <lower_upper>none</lower_upper>
+        <padding_type>none</padding_type>
+        <pad_char/>
+        <pad_len/>
+        <init_cap>no</init_cap>
+        <mask_xml>none</mask_xml>
+        <digits>none</digits>
+        <remove_special_characters>none</remove_special_characters>
+      </field>
+      <field>
+        <in_stream_name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS FINAIS - 9&#xba; ANO - MATEM&#xc1;TICA - N&#xed;vel 4</in_stream_name>
+        <out_stream_name/>
+        <trim_type>both</trim_type>
+        <lower_upper>none</lower_upper>
+        <padding_type>none</padding_type>
+        <pad_char/>
+        <pad_len/>
+        <init_cap>no</init_cap>
+        <mask_xml>none</mask_xml>
+        <digits>none</digits>
+        <remove_special_characters>none</remove_special_characters>
+      </field>
+      <field>
+        <in_stream_name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS FINAIS - 9&#xba; ANO - MATEM&#xc1;TICA - N&#xed;vel 5</in_stream_name>
+        <out_stream_name/>
+        <trim_type>both</trim_type>
+        <lower_upper>none</lower_upper>
+        <padding_type>none</padding_type>
+        <pad_char/>
+        <pad_len/>
+        <init_cap>no</init_cap>
+        <mask_xml>none</mask_xml>
+        <digits>none</digits>
+        <remove_special_characters>none</remove_special_characters>
+      </field>
+      <field>
+        <in_stream_name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS FINAIS - 9&#xba; ANO - MATEM&#xc1;TICA - N&#xed;vel 6</in_stream_name>
+        <out_stream_name/>
+        <trim_type>both</trim_type>
+        <lower_upper>none</lower_upper>
+        <padding_type>none</padding_type>
+        <pad_char/>
+        <pad_len/>
+        <init_cap>no</init_cap>
+        <mask_xml>none</mask_xml>
+        <digits>none</digits>
+        <remove_special_characters>none</remove_special_characters>
+      </field>
+      <field>
+        <in_stream_name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS FINAIS - 9&#xba; ANO - MATEM&#xc1;TICA - N&#xed;vel 7</in_stream_name>
+        <out_stream_name/>
+        <trim_type>both</trim_type>
+        <lower_upper>none</lower_upper>
+        <padding_type>none</padding_type>
+        <pad_char/>
+        <pad_len/>
+        <init_cap>no</init_cap>
+        <mask_xml>none</mask_xml>
+        <digits>none</digits>
+        <remove_special_characters>none</remove_special_characters>
+      </field>
+      <field>
+        <in_stream_name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS FINAIS - 9&#xba; ANO - MATEM&#xc1;TICA - N&#xed;vel 8</in_stream_name>
+        <out_stream_name/>
+        <trim_type>both</trim_type>
+        <lower_upper>none</lower_upper>
+        <padding_type>none</padding_type>
+        <pad_char/>
+        <pad_len/>
+        <init_cap>no</init_cap>
+        <mask_xml>none</mask_xml>
+        <digits>none</digits>
+        <remove_special_characters>none</remove_special_characters>
+      </field>
+      <field>
+        <in_stream_name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS FINAIS - 9&#xba; ANO - MATEM&#xc1;TICA - N&#xed;vel 9</in_stream_name>
+        <out_stream_name/>
+        <trim_type>both</trim_type>
+        <lower_upper>none</lower_upper>
+        <padding_type>none</padding_type>
+        <pad_char/>
+        <pad_len/>
+        <init_cap>no</init_cap>
+        <mask_xml>none</mask_xml>
+        <digits>none</digits>
+        <remove_special_characters>none</remove_special_characters>
+      </field>
     </fields>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>368</xloc>
-      <yloc>272</yloc>
+      <xloc>376</xloc>
+      <yloc>271</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -202,13 +759,13 @@
     <sheetfield/>
     <filefield/>
     <limit>0</limit>
-    <encoding>UTF-8</encoding>
+    <encoding/>
     <add_to_result_filenames>Y</add_to_result_filenames>
     <accept_filenames>N</accept_filenames>
     <accept_field/>
     <accept_stepname/>
     <file>
-      <name>&#x2f;Users&#x2f;rb&#x2f;qedu-workspace&#x2f;prova-brasil&#x2f;inep-to-kettle&#x2f;ts_municipio.xlsx</name>
+      <name>&#x2f;home&#x2f;fjorgemota&#x2f;&#xc1;rea de Trabalho&#x2f;Dados Prova Brasil&#x2f;2013&#x2f;TS_MUNICIPIO.xlsx</name>
       <filemask/>
       <exclude_filemask/>
       <file_required>Y</file_required>
@@ -228,19 +785,7 @@
         <group/>
       </field>
       <field>
-        <name>C&#xd3;DIGO DO MUNIC&#xcd;PIO</name>
-        <type>Number</type>
-        <length>-1</length>
-        <precision>-1</precision>
-        <trim_type>none</trim_type>
-        <repeat>N</repeat>
-        <format/>
-        <currency/>
-        <decimal/>
-        <group/>
-      </field>
-      <field>
-        <name>NOME DO MUNIC&#xcd;PIO</name>
+        <name>MUNIC&#xcd;PIO</name>
         <type>String</type>
         <length>-1</length>
         <precision>-1</precision>
@@ -277,7 +822,7 @@
       </field>
       <field>
         <name>M&#xc9;DIAS DE PROFICI&#xca;NCIA - ANOS INICIAIS - 5&#xba; ANO - L&#xcd;NGUA PORTUGUESA</name>
-        <type>Number</type>
+        <type>String</type>
         <length>-1</length>
         <precision>-1</precision>
         <trim_type>none</trim_type>
@@ -289,7 +834,7 @@
       </field>
       <field>
         <name>M&#xc9;DIAS DE PROFICI&#xca;NCIA - ANOS INICIAIS - 5&#xba; ANO - MATEM&#xc1;TICA</name>
-        <type>Number</type>
+        <type>String</type>
         <length>-1</length>
         <precision>-1</precision>
         <trim_type>none</trim_type>
@@ -300,8 +845,8 @@
         <group/>
       </field>
       <field>
-        <name>M&#xc9;DIAS DE PROFICI&#xca;NCIA - ANOS FINAIS - 9&#xba; ANO - L&#xcd;NGUA PORTUGUESA</name>
-        <type>Number</type>
+        <name>M&#xc9;DIAS DE PROFICI&#xca;NCIA - ANOS FINAIS  - 9&#xba; ANO - L&#xcd;NGUA PORTUGUESA</name>
+        <type>String</type>
         <length>-1</length>
         <precision>-1</precision>
         <trim_type>none</trim_type>
@@ -312,8 +857,476 @@
         <group/>
       </field>
       <field>
-        <name>M&#xc9;DIAS DE PROFICI&#xca;NCIA - ANOS FINAIS - 9&#xba; ANO - MATEM&#xc1;TICA</name>
-        <type>Number</type>
+        <name>M&#xc9;DIAS DE PROFICI&#xca;NCIA - ANOS FINAIS  - 9&#xba; ANO - MATEM&#xc1;TICA</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS INICIAIS - 5&#xba; ANO - L&#xcd;NGUA PORTUGUESA - At&#xe9; N&#xed;vel 1</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS INICIAIS - 5&#xba; ANO - L&#xcd;NGUA PORTUGUESA - N&#xed;vel 2</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS INICIAIS - 5&#xba; ANO - L&#xcd;NGUA PORTUGUESA - N&#xed;vel 3</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS INICIAIS - 5&#xba; ANO - L&#xcd;NGUA PORTUGUESA - N&#xed;vel 4</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS INICIAIS - 5&#xba; ANO - L&#xcd;NGUA PORTUGUESA - N&#xed;vel 5</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS INICIAIS - 5&#xba; ANO - L&#xcd;NGUA PORTUGUESA - N&#xed;vel 6</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS INICIAIS - 5&#xba; ANO - L&#xcd;NGUA PORTUGUESA - N&#xed;vel 7</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS INICIAIS - 5&#xba; ANO - L&#xcd;NGUA PORTUGUESA - N&#xed;vel 8</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS INICIAIS - 5&#xba; ANO - L&#xcd;NGUA PORTUGUESA - N&#xed;vel 9</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS INICIAIS - 5&#xba; ANO - MATEM&#xc1;TICA - Abaixo do N&#xed;vel 1</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS INICIAIS - 5&#xba; ANO - MATEM&#xc1;TICA - N&#xed;vel 1</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS INICIAIS - 5&#xba; ANO - MATEM&#xc1;TICA - N&#xed;vel 2</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS INICIAIS - 5&#xba; ANO - MATEM&#xc1;TICA - N&#xed;vel 3</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS INICIAIS - 5&#xba; ANO - MATEM&#xc1;TICA - N&#xed;vel 4</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS INICIAIS - 5&#xba; ANO - MATEM&#xc1;TICA - N&#xed;vel 5</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS INICIAIS - 5&#xba; ANO - MATEM&#xc1;TICA - N&#xed;vel 6</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS INICIAIS - 5&#xba; ANO - MATEM&#xc1;TICA - N&#xed;vel 7</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS INICIAIS - 5&#xba; ANO - MATEM&#xc1;TICA - N&#xed;vel 8</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS INICIAIS - 5&#xba; ANO - MATEM&#xc1;TICA - N&#xed;vel 9</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS INICIAIS - 5&#xba; ANO - MATEM&#xc1;TICA - N&#xed;vel 10</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS FINAIS - 9&#xba; ANO - L&#xcd;NGUA PORTUGUESA - Abaixo do N&#xed;vel 1</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS FINAIS - 9&#xba; ANO - L&#xcd;NGUA PORTUGUESA - N&#xed;vel 1</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS FINAIS - 9&#xba; ANO - L&#xcd;NGUA PORTUGUESA - N&#xed;vel 2</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS FINAIS - 9&#xba; ANO - L&#xcd;NGUA PORTUGUESA - N&#xed;vel 3</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS FINAIS - 9&#xba; ANO - L&#xcd;NGUA PORTUGUESA - N&#xed;vel 4</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS FINAIS - 9&#xba; ANO - L&#xcd;NGUA PORTUGUESA - N&#xed;vel 5</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS FINAIS - 9&#xba; ANO - L&#xcd;NGUA PORTUGUESA - N&#xed;vel 6</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS FINAIS - 9&#xba; ANO - L&#xcd;NGUA PORTUGUESA - N&#xed;vel 7</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS FINAIS - 9&#xba; ANO - L&#xcd;NGUA PORTUGUESA - N&#xed;vel 8</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS FINAIS - 9&#xba; ANO - MATEM&#xc1;TICA - Abaixo do N&#xed;vel 1</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS FINAIS - 9&#xba; ANO - MATEM&#xc1;TICA - N&#xed;vel 1</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS FINAIS - 9&#xba; ANO - MATEM&#xc1;TICA - N&#xed;vel 2</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS FINAIS - 9&#xba; ANO - MATEM&#xc1;TICA - N&#xed;vel 3</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS FINAIS - 9&#xba; ANO - MATEM&#xc1;TICA - N&#xed;vel 4</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS FINAIS - 9&#xba; ANO - MATEM&#xc1;TICA - N&#xed;vel 5</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS FINAIS - 9&#xba; ANO - MATEM&#xc1;TICA - N&#xed;vel 6</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS FINAIS - 9&#xba; ANO - MATEM&#xc1;TICA - N&#xed;vel 7</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS FINAIS - 9&#xba; ANO - MATEM&#xc1;TICA - N&#xed;vel 8</name>
+        <type>String</type>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+      </field>
+      <field>
+        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS FINAIS - 9&#xba; ANO - MATEM&#xc1;TICA - N&#xed;vel 9</name>
+        <type>String</type>
         <length>-1</length>
         <precision>-1</precision>
         <trim_type>none</trim_type>
@@ -326,8 +1339,8 @@
     </fields>
     <sheets>
       <sheet>
-        <name>MUNIC&#xcd;PIO</name>
-        <startrow>3</startrow>
+        <name>MUNICIPIO</name>
+        <startrow>1</startrow>
         <startcol>0</startcol>
         </sheet>
     </sheets>
@@ -351,8 +1364,8 @@
     <spreadsheet_type>POI</spreadsheet_type>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>224</xloc>
-      <yloc>272</yloc>
+      <xloc>214</xloc>
+      <yloc>278</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -374,11 +1387,7 @@
         <value/>
         </field>
       <field>
-        <name>C&#xd3;DIGO DO MUNIC&#xcd;PIO</name>
-        <value/>
-        </field>
-      <field>
-        <name>NOME DO MUNIC&#xcd;PIO</name>
+        <name>MUNIC&#xcd;PIO</name>
         <value/>
         </field>
       <field>
@@ -398,18 +1407,174 @@
         <value/>
         </field>
       <field>
-        <name>M&#xc9;DIAS DE PROFICI&#xca;NCIA - ANOS FINAIS - 9&#xba; ANO - L&#xcd;NGUA PORTUGUESA</name>
+        <name>M&#xc9;DIAS DE PROFICI&#xca;NCIA - ANOS FINAIS  - 9&#xba; ANO - L&#xcd;NGUA PORTUGUESA</name>
         <value/>
         </field>
       <field>
-        <name>M&#xc9;DIAS DE PROFICI&#xca;NCIA - ANOS FINAIS - 9&#xba; ANO - MATEM&#xc1;TICA</name>
+        <name>M&#xc9;DIAS DE PROFICI&#xca;NCIA - ANOS FINAIS  - 9&#xba; ANO - MATEM&#xc1;TICA</name>
+        <value/>
+        </field>
+      <field>
+        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS INICIAIS - 5&#xba; ANO - L&#xcd;NGUA PORTUGUESA - At&#xe9; N&#xed;vel 1</name>
+        <value/>
+        </field>
+      <field>
+        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS INICIAIS - 5&#xba; ANO - L&#xcd;NGUA PORTUGUESA - N&#xed;vel 2</name>
+        <value/>
+        </field>
+      <field>
+        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS INICIAIS - 5&#xba; ANO - L&#xcd;NGUA PORTUGUESA - N&#xed;vel 3</name>
+        <value/>
+        </field>
+      <field>
+        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS INICIAIS - 5&#xba; ANO - L&#xcd;NGUA PORTUGUESA - N&#xed;vel 4</name>
+        <value/>
+        </field>
+      <field>
+        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS INICIAIS - 5&#xba; ANO - L&#xcd;NGUA PORTUGUESA - N&#xed;vel 5</name>
+        <value/>
+        </field>
+      <field>
+        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS INICIAIS - 5&#xba; ANO - L&#xcd;NGUA PORTUGUESA - N&#xed;vel 6</name>
+        <value/>
+        </field>
+      <field>
+        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS INICIAIS - 5&#xba; ANO - L&#xcd;NGUA PORTUGUESA - N&#xed;vel 7</name>
+        <value/>
+        </field>
+      <field>
+        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS INICIAIS - 5&#xba; ANO - L&#xcd;NGUA PORTUGUESA - N&#xed;vel 8</name>
+        <value/>
+        </field>
+      <field>
+        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS INICIAIS - 5&#xba; ANO - L&#xcd;NGUA PORTUGUESA - N&#xed;vel 9</name>
+        <value/>
+        </field>
+      <field>
+        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS INICIAIS - 5&#xba; ANO - MATEM&#xc1;TICA - Abaixo do N&#xed;vel 1</name>
+        <value/>
+        </field>
+      <field>
+        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS INICIAIS - 5&#xba; ANO - MATEM&#xc1;TICA - N&#xed;vel 1</name>
+        <value/>
+        </field>
+      <field>
+        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS INICIAIS - 5&#xba; ANO - MATEM&#xc1;TICA - N&#xed;vel 2</name>
+        <value/>
+        </field>
+      <field>
+        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS INICIAIS - 5&#xba; ANO - MATEM&#xc1;TICA - N&#xed;vel 3</name>
+        <value/>
+        </field>
+      <field>
+        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS INICIAIS - 5&#xba; ANO - MATEM&#xc1;TICA - N&#xed;vel 4</name>
+        <value/>
+        </field>
+      <field>
+        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS INICIAIS - 5&#xba; ANO - MATEM&#xc1;TICA - N&#xed;vel 5</name>
+        <value/>
+        </field>
+      <field>
+        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS INICIAIS - 5&#xba; ANO - MATEM&#xc1;TICA - N&#xed;vel 6</name>
+        <value/>
+        </field>
+      <field>
+        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS INICIAIS - 5&#xba; ANO - MATEM&#xc1;TICA - N&#xed;vel 7</name>
+        <value/>
+        </field>
+      <field>
+        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS INICIAIS - 5&#xba; ANO - MATEM&#xc1;TICA - N&#xed;vel 8</name>
+        <value/>
+        </field>
+      <field>
+        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS INICIAIS - 5&#xba; ANO - MATEM&#xc1;TICA - N&#xed;vel 9</name>
+        <value/>
+        </field>
+      <field>
+        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS INICIAIS - 5&#xba; ANO - MATEM&#xc1;TICA - N&#xed;vel 10</name>
+        <value/>
+        </field>
+      <field>
+        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS FINAIS - 9&#xba; ANO - L&#xcd;NGUA PORTUGUESA - Abaixo do N&#xed;vel 1</name>
+        <value/>
+        </field>
+      <field>
+        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS FINAIS - 9&#xba; ANO - L&#xcd;NGUA PORTUGUESA - N&#xed;vel 1</name>
+        <value/>
+        </field>
+      <field>
+        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS FINAIS - 9&#xba; ANO - L&#xcd;NGUA PORTUGUESA - N&#xed;vel 2</name>
+        <value/>
+        </field>
+      <field>
+        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS FINAIS - 9&#xba; ANO - L&#xcd;NGUA PORTUGUESA - N&#xed;vel 3</name>
+        <value/>
+        </field>
+      <field>
+        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS FINAIS - 9&#xba; ANO - L&#xcd;NGUA PORTUGUESA - N&#xed;vel 4</name>
+        <value/>
+        </field>
+      <field>
+        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS FINAIS - 9&#xba; ANO - L&#xcd;NGUA PORTUGUESA - N&#xed;vel 5</name>
+        <value/>
+        </field>
+      <field>
+        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS FINAIS - 9&#xba; ANO - L&#xcd;NGUA PORTUGUESA - N&#xed;vel 6</name>
+        <value/>
+        </field>
+      <field>
+        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS FINAIS - 9&#xba; ANO - L&#xcd;NGUA PORTUGUESA - N&#xed;vel 7</name>
+        <value/>
+        </field>
+      <field>
+        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS FINAIS - 9&#xba; ANO - L&#xcd;NGUA PORTUGUESA - N&#xed;vel 8</name>
+        <value/>
+        </field>
+      <field>
+        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS FINAIS - 9&#xba; ANO - MATEM&#xc1;TICA - Abaixo do N&#xed;vel 1</name>
+        <value/>
+        </field>
+      <field>
+        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS FINAIS - 9&#xba; ANO - MATEM&#xc1;TICA - N&#xed;vel 1</name>
+        <value/>
+        </field>
+      <field>
+        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS FINAIS - 9&#xba; ANO - MATEM&#xc1;TICA - N&#xed;vel 2</name>
+        <value/>
+        </field>
+      <field>
+        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS FINAIS - 9&#xba; ANO - MATEM&#xc1;TICA - N&#xed;vel 3</name>
+        <value/>
+        </field>
+      <field>
+        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS FINAIS - 9&#xba; ANO - MATEM&#xc1;TICA - N&#xed;vel 4</name>
+        <value/>
+        </field>
+      <field>
+        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS FINAIS - 9&#xba; ANO - MATEM&#xc1;TICA - N&#xed;vel 5</name>
+        <value/>
+        </field>
+      <field>
+        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS FINAIS - 9&#xba; ANO - MATEM&#xc1;TICA - N&#xed;vel 6</name>
+        <value/>
+        </field>
+      <field>
+        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS FINAIS - 9&#xba; ANO - MATEM&#xc1;TICA - N&#xed;vel 7</name>
+        <value/>
+        </field>
+      <field>
+        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS FINAIS - 9&#xba; ANO - MATEM&#xc1;TICA - N&#xed;vel 8</name>
+        <value/>
+        </field>
+      <field>
+        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS FINAIS - 9&#xba; ANO - MATEM&#xc1;TICA - N&#xed;vel 9</name>
         <value/>
         </field>
       </fields>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>496</xloc>
-      <yloc>272</yloc>
+      <xloc>505</xloc>
+      <yloc>260</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -429,11 +1594,7 @@
         <rename>estado</rename>
         <length>-2</length>
         <precision>-2</precision>
-      </field>      <field>        <name>C&#xd3;DIGO DO MUNIC&#xcd;PIO</name>
-        <rename>ibge_id</rename>
-        <length>-2</length>
-        <precision>-2</precision>
-      </field>      <field>        <name>NOME DO MUNIC&#xcd;PIO</name>
+      </field>      <field>        <name>MUNIC&#xcd;PIO</name>
         <rename>municipio</rename>
         <length>-2</length>
         <precision>-2</precision>
@@ -453,19 +1614,175 @@
         <rename>MEDIA_5EF_MT</rename>
         <length>-2</length>
         <precision>-2</precision>
-      </field>      <field>        <name>M&#xc9;DIAS DE PROFICI&#xca;NCIA - ANOS FINAIS - 9&#xba; ANO - L&#xcd;NGUA PORTUGUESA</name>
+      </field>      <field>        <name>M&#xc9;DIAS DE PROFICI&#xca;NCIA - ANOS FINAIS  - 9&#xba; ANO - L&#xcd;NGUA PORTUGUESA</name>
         <rename>MEDIA_9EF_LP</rename>
         <length>-2</length>
         <precision>-2</precision>
-      </field>      <field>        <name>M&#xc9;DIAS DE PROFICI&#xca;NCIA - ANOS FINAIS - 9&#xba; ANO - MATEM&#xc1;TICA</name>
+      </field>      <field>        <name>M&#xc9;DIAS DE PROFICI&#xca;NCIA - ANOS FINAIS  - 9&#xba; ANO - MATEM&#xc1;TICA</name>
         <rename>MEDIA_9EF_MT</rename>
+        <length>-2</length>
+        <precision>-2</precision>
+      </field>      <field>        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS INICIAIS - 5&#xba; ANO - L&#xcd;NGUA PORTUGUESA - At&#xe9; N&#xed;vel 1</name>
+        <rename>ate_nivel_1_LP5</rename>
+        <length>-2</length>
+        <precision>-2</precision>
+      </field>      <field>        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS INICIAIS - 5&#xba; ANO - L&#xcd;NGUA PORTUGUESA - N&#xed;vel 2</name>
+        <rename>nivel_2_LP5</rename>
+        <length>-2</length>
+        <precision>-2</precision>
+      </field>      <field>        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS INICIAIS - 5&#xba; ANO - L&#xcd;NGUA PORTUGUESA - N&#xed;vel 3</name>
+        <rename>nivel_3_LP5</rename>
+        <length>-2</length>
+        <precision>-2</precision>
+      </field>      <field>        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS INICIAIS - 5&#xba; ANO - L&#xcd;NGUA PORTUGUESA - N&#xed;vel 4</name>
+        <rename>nivel_4_LP5</rename>
+        <length>-2</length>
+        <precision>-2</precision>
+      </field>      <field>        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS INICIAIS - 5&#xba; ANO - L&#xcd;NGUA PORTUGUESA - N&#xed;vel 5</name>
+        <rename>nivel_5_LP5</rename>
+        <length>-2</length>
+        <precision>-2</precision>
+      </field>      <field>        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS INICIAIS - 5&#xba; ANO - L&#xcd;NGUA PORTUGUESA - N&#xed;vel 6</name>
+        <rename>nivel_6_LP5</rename>
+        <length>-2</length>
+        <precision>-2</precision>
+      </field>      <field>        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS INICIAIS - 5&#xba; ANO - L&#xcd;NGUA PORTUGUESA - N&#xed;vel 7</name>
+        <rename>nivel_7_LP5</rename>
+        <length>-2</length>
+        <precision>-2</precision>
+      </field>      <field>        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS INICIAIS - 5&#xba; ANO - L&#xcd;NGUA PORTUGUESA - N&#xed;vel 8</name>
+        <rename>nivel_8_LP5</rename>
+        <length>-2</length>
+        <precision>-2</precision>
+      </field>      <field>        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS INICIAIS - 5&#xba; ANO - L&#xcd;NGUA PORTUGUESA - N&#xed;vel 9</name>
+        <rename>nivel_9_LP5</rename>
+        <length>-2</length>
+        <precision>-2</precision>
+      </field>      <field>        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS INICIAIS - 5&#xba; ANO - MATEM&#xc1;TICA - Abaixo do N&#xed;vel 1</name>
+        <rename>nivel_0_MT5</rename>
+        <length>-2</length>
+        <precision>-2</precision>
+      </field>      <field>        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS INICIAIS - 5&#xba; ANO - MATEM&#xc1;TICA - N&#xed;vel 1</name>
+        <rename>nivel_1_MT5</rename>
+        <length>-2</length>
+        <precision>-2</precision>
+      </field>      <field>        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS INICIAIS - 5&#xba; ANO - MATEM&#xc1;TICA - N&#xed;vel 2</name>
+        <rename>nivel_2_MT5</rename>
+        <length>-2</length>
+        <precision>-2</precision>
+      </field>      <field>        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS INICIAIS - 5&#xba; ANO - MATEM&#xc1;TICA - N&#xed;vel 3</name>
+        <rename>nivel_3_MT5</rename>
+        <length>-2</length>
+        <precision>-2</precision>
+      </field>      <field>        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS INICIAIS - 5&#xba; ANO - MATEM&#xc1;TICA - N&#xed;vel 4</name>
+        <rename>nivel_4_MT5</rename>
+        <length>-2</length>
+        <precision>-2</precision>
+      </field>      <field>        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS INICIAIS - 5&#xba; ANO - MATEM&#xc1;TICA - N&#xed;vel 5</name>
+        <rename>nivel_5_MT5</rename>
+        <length>-2</length>
+        <precision>-2</precision>
+      </field>      <field>        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS INICIAIS - 5&#xba; ANO - MATEM&#xc1;TICA - N&#xed;vel 6</name>
+        <rename>nivel_6_MT5</rename>
+        <length>-2</length>
+        <precision>-2</precision>
+      </field>      <field>        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS INICIAIS - 5&#xba; ANO - MATEM&#xc1;TICA - N&#xed;vel 7</name>
+        <rename>nivel_7_MT5</rename>
+        <length>-2</length>
+        <precision>-2</precision>
+      </field>      <field>        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS INICIAIS - 5&#xba; ANO - MATEM&#xc1;TICA - N&#xed;vel 8</name>
+        <rename>nivel_8_MT5</rename>
+        <length>-2</length>
+        <precision>-2</precision>
+      </field>      <field>        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS INICIAIS - 5&#xba; ANO - MATEM&#xc1;TICA - N&#xed;vel 9</name>
+        <rename>nivel_9_MT5</rename>
+        <length>-2</length>
+        <precision>-2</precision>
+      </field>      <field>        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS INICIAIS - 5&#xba; ANO - MATEM&#xc1;TICA - N&#xed;vel 10</name>
+        <rename>nivel_10_MT5</rename>
+        <length>-2</length>
+        <precision>-2</precision>
+      </field>      <field>        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS FINAIS - 9&#xba; ANO - L&#xcd;NGUA PORTUGUESA - Abaixo do N&#xed;vel 1</name>
+        <rename>nivel_0_LP9</rename>
+        <length>-2</length>
+        <precision>-2</precision>
+      </field>      <field>        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS FINAIS - 9&#xba; ANO - L&#xcd;NGUA PORTUGUESA - N&#xed;vel 1</name>
+        <rename>nivel_1_LP9</rename>
+        <length>-2</length>
+        <precision>-2</precision>
+      </field>      <field>        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS FINAIS - 9&#xba; ANO - L&#xcd;NGUA PORTUGUESA - N&#xed;vel 2</name>
+        <rename>nivel_2_LP9</rename>
+        <length>-2</length>
+        <precision>-2</precision>
+      </field>      <field>        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS FINAIS - 9&#xba; ANO - L&#xcd;NGUA PORTUGUESA - N&#xed;vel 3</name>
+        <rename>nivel_3_LP9</rename>
+        <length>-2</length>
+        <precision>-2</precision>
+      </field>      <field>        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS FINAIS - 9&#xba; ANO - L&#xcd;NGUA PORTUGUESA - N&#xed;vel 4</name>
+        <rename>nivel_4_LP9</rename>
+        <length>-2</length>
+        <precision>-2</precision>
+      </field>      <field>        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS FINAIS - 9&#xba; ANO - L&#xcd;NGUA PORTUGUESA - N&#xed;vel 5</name>
+        <rename>nivel_5_LP9</rename>
+        <length>-2</length>
+        <precision>-2</precision>
+      </field>      <field>        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS FINAIS - 9&#xba; ANO - L&#xcd;NGUA PORTUGUESA - N&#xed;vel 6</name>
+        <rename>nivel_6_LP9</rename>
+        <length>-2</length>
+        <precision>-2</precision>
+      </field>      <field>        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS FINAIS - 9&#xba; ANO - L&#xcd;NGUA PORTUGUESA - N&#xed;vel 7</name>
+        <rename>nivel_7_LP9</rename>
+        <length>-2</length>
+        <precision>-2</precision>
+      </field>      <field>        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS FINAIS - 9&#xba; ANO - L&#xcd;NGUA PORTUGUESA - N&#xed;vel 8</name>
+        <rename>nivel_8_LP9</rename>
+        <length>-2</length>
+        <precision>-2</precision>
+      </field>      <field>        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS FINAIS - 9&#xba; ANO - MATEM&#xc1;TICA - Abaixo do N&#xed;vel 1</name>
+        <rename>nivel_0_MT9</rename>
+        <length>-2</length>
+        <precision>-2</precision>
+      </field>      <field>        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS FINAIS - 9&#xba; ANO - MATEM&#xc1;TICA - N&#xed;vel 1</name>
+        <rename>nivel_1_MT9</rename>
+        <length>-2</length>
+        <precision>-2</precision>
+      </field>      <field>        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS FINAIS - 9&#xba; ANO - MATEM&#xc1;TICA - N&#xed;vel 2</name>
+        <rename>nivel_2_MT9</rename>
+        <length>-2</length>
+        <precision>-2</precision>
+      </field>      <field>        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS FINAIS - 9&#xba; ANO - MATEM&#xc1;TICA - N&#xed;vel 3</name>
+        <rename>nivel_3_MT9</rename>
+        <length>-2</length>
+        <precision>-2</precision>
+      </field>      <field>        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS FINAIS - 9&#xba; ANO - MATEM&#xc1;TICA - N&#xed;vel 4</name>
+        <rename>nivel_4_MT9</rename>
+        <length>-2</length>
+        <precision>-2</precision>
+      </field>      <field>        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS FINAIS - 9&#xba; ANO - MATEM&#xc1;TICA - N&#xed;vel 5</name>
+        <rename>nivel_5_MT9</rename>
+        <length>-2</length>
+        <precision>-2</precision>
+      </field>      <field>        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS FINAIS - 9&#xba; ANO - MATEM&#xc1;TICA - N&#xed;vel 6</name>
+        <rename>nivel_6_MT9</rename>
+        <length>-2</length>
+        <precision>-2</precision>
+      </field>      <field>        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS FINAIS - 9&#xba; ANO - MATEM&#xc1;TICA - N&#xed;vel 7</name>
+        <rename>nivel_7_MT9</rename>
+        <length>-2</length>
+        <precision>-2</precision>
+      </field>      <field>        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS FINAIS - 9&#xba; ANO - MATEM&#xc1;TICA - N&#xed;vel 8</name>
+        <rename>nivel_8_MT9</rename>
+        <length>-2</length>
+        <precision>-2</precision>
+      </field>      <field>        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS FINAIS - 9&#xba; ANO - MATEM&#xc1;TICA - N&#xed;vel 9</name>
+        <rename>nivel_9_MT9</rename>
         <length>-2</length>
         <precision>-2</precision>
       </field>        <select_unspecified>N</select_unspecified>
     </fields>     <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>800</xloc>
-      <yloc>272</yloc>
+      <xloc>898</xloc>
+      <yloc>253</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -482,7 +1799,7 @@
            <schema_name/>
            </partitioning>
     <connection>Local</connection>
-    <schema>pb_test_import</schema>
+    <schema>provabrasil_2013</schema>
     <table>resultados_municipios</table>
     <commit>10000</commit>
     <truncate>N</truncate>
@@ -502,10 +1819,6 @@
         <field>
           <column_name>estado</column_name>
           <stream_name>estado</stream_name>
-        </field>
-        <field>
-          <column_name>ibge_id</column_name>
-          <stream_name>ibge_id</stream_name>
         </field>
         <field>
           <column_name>municipio</column_name>
@@ -535,11 +1848,167 @@
           <column_name>MEDIA_9EF_MT</column_name>
           <stream_name>MEDIA_9EF_MT</stream_name>
         </field>
+        <field>
+          <column_name>ate_nivel_1_LP5</column_name>
+          <stream_name>ate_nivel_1_LP5</stream_name>
+        </field>
+        <field>
+          <column_name>nivel_2_LP5</column_name>
+          <stream_name>nivel_2_LP5</stream_name>
+        </field>
+        <field>
+          <column_name>nivel_3_LP5</column_name>
+          <stream_name>nivel_3_LP5</stream_name>
+        </field>
+        <field>
+          <column_name>nivel_4_LP5</column_name>
+          <stream_name>nivel_4_LP5</stream_name>
+        </field>
+        <field>
+          <column_name>nivel_5_LP5</column_name>
+          <stream_name>nivel_5_LP5</stream_name>
+        </field>
+        <field>
+          <column_name>nivel_6_LP5</column_name>
+          <stream_name>nivel_6_LP5</stream_name>
+        </field>
+        <field>
+          <column_name>nivel_7_LP5</column_name>
+          <stream_name>nivel_7_LP5</stream_name>
+        </field>
+        <field>
+          <column_name>nivel_8_LP5</column_name>
+          <stream_name>nivel_8_LP5</stream_name>
+        </field>
+        <field>
+          <column_name>nivel_9_LP5</column_name>
+          <stream_name>nivel_9_LP5</stream_name>
+        </field>
+        <field>
+          <column_name>nivel_0_MT5</column_name>
+          <stream_name>nivel_0_MT5</stream_name>
+        </field>
+        <field>
+          <column_name>nivel_1_MT5</column_name>
+          <stream_name>nivel_1_MT5</stream_name>
+        </field>
+        <field>
+          <column_name>nivel_2_MT5</column_name>
+          <stream_name>nivel_2_MT5</stream_name>
+        </field>
+        <field>
+          <column_name>nivel_3_MT5</column_name>
+          <stream_name>nivel_3_MT5</stream_name>
+        </field>
+        <field>
+          <column_name>nivel_4_MT5</column_name>
+          <stream_name>nivel_4_MT5</stream_name>
+        </field>
+        <field>
+          <column_name>nivel_5_MT5</column_name>
+          <stream_name>nivel_5_MT5</stream_name>
+        </field>
+        <field>
+          <column_name>nivel_6_MT5</column_name>
+          <stream_name>nivel_6_MT5</stream_name>
+        </field>
+        <field>
+          <column_name>nivel_7_MT5</column_name>
+          <stream_name>nivel_7_MT5</stream_name>
+        </field>
+        <field>
+          <column_name>nivel_8_MT5</column_name>
+          <stream_name>nivel_8_MT5</stream_name>
+        </field>
+        <field>
+          <column_name>nivel_9_MT5</column_name>
+          <stream_name>nivel_9_MT5</stream_name>
+        </field>
+        <field>
+          <column_name>nivel_10_MT5</column_name>
+          <stream_name>nivel_10_MT5</stream_name>
+        </field>
+        <field>
+          <column_name>nivel_0_LP9</column_name>
+          <stream_name>nivel_0_LP9</stream_name>
+        </field>
+        <field>
+          <column_name>nivel_1_LP9</column_name>
+          <stream_name>nivel_1_LP9</stream_name>
+        </field>
+        <field>
+          <column_name>nivel_2_LP9</column_name>
+          <stream_name>nivel_2_LP9</stream_name>
+        </field>
+        <field>
+          <column_name>nivel_3_LP9</column_name>
+          <stream_name>nivel_3_LP9</stream_name>
+        </field>
+        <field>
+          <column_name>nivel_4_LP9</column_name>
+          <stream_name>nivel_4_LP9</stream_name>
+        </field>
+        <field>
+          <column_name>nivel_5_LP9</column_name>
+          <stream_name>nivel_5_LP9</stream_name>
+        </field>
+        <field>
+          <column_name>nivel_6_LP9</column_name>
+          <stream_name>nivel_6_LP9</stream_name>
+        </field>
+        <field>
+          <column_name>nivel_7_LP9</column_name>
+          <stream_name>nivel_7_LP9</stream_name>
+        </field>
+        <field>
+          <column_name>nivel_8_LP9</column_name>
+          <stream_name>nivel_8_LP9</stream_name>
+        </field>
+        <field>
+          <column_name>nivel_0_MT9</column_name>
+          <stream_name>nivel_0_MT9</stream_name>
+        </field>
+        <field>
+          <column_name>nivel_1_MT9</column_name>
+          <stream_name>nivel_1_MT9</stream_name>
+        </field>
+        <field>
+          <column_name>nivel_2_MT9</column_name>
+          <stream_name>nivel_2_MT9</stream_name>
+        </field>
+        <field>
+          <column_name>nivel_3_MT9</column_name>
+          <stream_name>nivel_3_MT9</stream_name>
+        </field>
+        <field>
+          <column_name>nivel_4_MT9</column_name>
+          <stream_name>nivel_4_MT9</stream_name>
+        </field>
+        <field>
+          <column_name>nivel_5_MT9</column_name>
+          <stream_name>nivel_5_MT9</stream_name>
+        </field>
+        <field>
+          <column_name>nivel_6_MT9</column_name>
+          <stream_name>nivel_6_MT9</stream_name>
+        </field>
+        <field>
+          <column_name>nivel_7_MT9</column_name>
+          <stream_name>nivel_7_MT9</stream_name>
+        </field>
+        <field>
+          <column_name>nivel_8_MT9</column_name>
+          <stream_name>nivel_8_MT9</stream_name>
+        </field>
+        <field>
+          <column_name>nivel_9_MT9</column_name>
+          <stream_name>nivel_9_MT9</stream_name>
+        </field>
     </fields>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>928</xloc>
-      <yloc>272</yloc>
+      <xloc>1116</xloc>
+      <yloc>236</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -558,7 +2027,7 @@
     <fields>        <select_unspecified>N</select_unspecified>
       <meta>        <name>UF</name>
         <rename>UF</rename>
-        <type>None</type>
+        <type>String</type>
         <length>-2</length>
         <precision>-2</precision>
         <conversion_mask/>
@@ -567,13 +2036,13 @@
         <date_format_timezone/>
         <lenient_string_to_number>false</lenient_string_to_number>
         <encoding/>
-        <decimal_symbol/>
+        <decimal_symbol>,</decimal_symbol>
         <grouping_symbol/>
         <currency_symbol/>
         <storage_type/>
-      </meta>      <meta>        <name>C&#xd3;DIGO DO MUNIC&#xcd;PIO</name>
-        <rename>C&#xd3;DIGO DO MUNIC&#xcd;PIO</rename>
-        <type>None</type>
+      </meta>      <meta>        <name>MUNIC&#xcd;PIO</name>
+        <rename>MUNIC&#xcd;PIO</rename>
+        <type>String</type>
         <length>-2</length>
         <precision>-2</precision>
         <conversion_mask/>
@@ -582,28 +2051,13 @@
         <date_format_timezone/>
         <lenient_string_to_number>false</lenient_string_to_number>
         <encoding/>
-        <decimal_symbol/>
-        <grouping_symbol/>
-        <currency_symbol/>
-        <storage_type/>
-      </meta>      <meta>        <name>NOME DO MUNIC&#xcd;PIO</name>
-        <rename>NOME DO MUNIC&#xcd;PIO</rename>
-        <type>None</type>
-        <length>-2</length>
-        <precision>-2</precision>
-        <conversion_mask/>
-        <date_format_lenient>false</date_format_lenient>
-        <date_format_locale/>
-        <date_format_timezone/>
-        <lenient_string_to_number>false</lenient_string_to_number>
-        <encoding/>
-        <decimal_symbol/>
+        <decimal_symbol>,</decimal_symbol>
         <grouping_symbol/>
         <currency_symbol/>
         <storage_type/>
       </meta>      <meta>        <name>DEPEND&#xca;NCIA ADMINISTRATIVA</name>
         <rename>DEPEND&#xca;NCIA ADMINISTRATIVA</rename>
-        <type>None</type>
+        <type>String</type>
         <length>-2</length>
         <precision>-2</precision>
         <conversion_mask/>
@@ -612,13 +2066,13 @@
         <date_format_timezone/>
         <lenient_string_to_number>false</lenient_string_to_number>
         <encoding/>
-        <decimal_symbol/>
+        <decimal_symbol>,</decimal_symbol>
         <grouping_symbol/>
         <currency_symbol/>
         <storage_type/>
       </meta>      <meta>        <name>LOCALIZA&#xc7;&#xc3;O</name>
         <rename>LOCALIZA&#xc7;&#xc3;O</rename>
-        <type>None</type>
+        <type>String</type>
         <length>-2</length>
         <precision>-2</precision>
         <conversion_mask/>
@@ -627,13 +2081,13 @@
         <date_format_timezone/>
         <lenient_string_to_number>false</lenient_string_to_number>
         <encoding/>
-        <decimal_symbol/>
+        <decimal_symbol>,</decimal_symbol>
         <grouping_symbol/>
         <currency_symbol/>
         <storage_type/>
       </meta>      <meta>        <name>M&#xc9;DIAS DE PROFICI&#xca;NCIA - ANOS INICIAIS - 5&#xba; ANO - L&#xcd;NGUA PORTUGUESA</name>
         <rename>M&#xc9;DIAS DE PROFICI&#xca;NCIA - ANOS INICIAIS - 5&#xba; ANO - L&#xcd;NGUA PORTUGUESA</rename>
-        <type>None</type>
+        <type>Number</type>
         <length>-2</length>
         <precision>-2</precision>
         <conversion_mask/>
@@ -642,13 +2096,13 @@
         <date_format_timezone/>
         <lenient_string_to_number>false</lenient_string_to_number>
         <encoding/>
-        <decimal_symbol/>
+        <decimal_symbol>,</decimal_symbol>
         <grouping_symbol/>
         <currency_symbol/>
         <storage_type/>
       </meta>      <meta>        <name>M&#xc9;DIAS DE PROFICI&#xca;NCIA - ANOS INICIAIS - 5&#xba; ANO - MATEM&#xc1;TICA</name>
         <rename>M&#xc9;DIAS DE PROFICI&#xca;NCIA - ANOS INICIAIS - 5&#xba; ANO - MATEM&#xc1;TICA</rename>
-        <type>None</type>
+        <type>Number</type>
         <length>-2</length>
         <precision>-2</precision>
         <conversion_mask/>
@@ -657,13 +2111,13 @@
         <date_format_timezone/>
         <lenient_string_to_number>false</lenient_string_to_number>
         <encoding/>
-        <decimal_symbol/>
+        <decimal_symbol>,</decimal_symbol>
         <grouping_symbol/>
         <currency_symbol/>
         <storage_type/>
-      </meta>      <meta>        <name>M&#xc9;DIAS DE PROFICI&#xca;NCIA - ANOS FINAIS - 9&#xba; ANO - L&#xcd;NGUA PORTUGUESA</name>
-        <rename>M&#xc9;DIAS DE PROFICI&#xca;NCIA - ANOS FINAIS - 9&#xba; ANO - L&#xcd;NGUA PORTUGUESA</rename>
-        <type>None</type>
+      </meta>      <meta>        <name>M&#xc9;DIAS DE PROFICI&#xca;NCIA - ANOS FINAIS  - 9&#xba; ANO - L&#xcd;NGUA PORTUGUESA</name>
+        <rename>M&#xc9;DIAS DE PROFICI&#xca;NCIA - ANOS FINAIS  - 9&#xba; ANO - L&#xcd;NGUA PORTUGUESA</rename>
+        <type>Number</type>
         <length>-2</length>
         <precision>-2</precision>
         <conversion_mask/>
@@ -672,13 +2126,13 @@
         <date_format_timezone/>
         <lenient_string_to_number>false</lenient_string_to_number>
         <encoding/>
-        <decimal_symbol/>
+        <decimal_symbol>,</decimal_symbol>
         <grouping_symbol/>
         <currency_symbol/>
         <storage_type/>
-      </meta>      <meta>        <name>M&#xc9;DIAS DE PROFICI&#xca;NCIA - ANOS FINAIS - 9&#xba; ANO - MATEM&#xc1;TICA</name>
-        <rename>M&#xc9;DIAS DE PROFICI&#xca;NCIA - ANOS FINAIS - 9&#xba; ANO - MATEM&#xc1;TICA</rename>
-        <type>None</type>
+      </meta>      <meta>        <name>M&#xc9;DIAS DE PROFICI&#xca;NCIA - ANOS FINAIS  - 9&#xba; ANO - MATEM&#xc1;TICA</name>
+        <rename>M&#xc9;DIAS DE PROFICI&#xca;NCIA - ANOS FINAIS  - 9&#xba; ANO - MATEM&#xc1;TICA</rename>
+        <type>Number</type>
         <length>-2</length>
         <precision>-2</precision>
         <conversion_mask/>
@@ -687,14 +2141,599 @@
         <date_format_timezone/>
         <lenient_string_to_number>false</lenient_string_to_number>
         <encoding/>
-        <decimal_symbol/>
+        <decimal_symbol>,</decimal_symbol>
+        <grouping_symbol/>
+        <currency_symbol/>
+        <storage_type/>
+      </meta>      <meta>        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS INICIAIS - 5&#xba; ANO - L&#xcd;NGUA PORTUGUESA - At&#xe9; N&#xed;vel 1</name>
+        <rename>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS INICIAIS - 5&#xba; ANO - L&#xcd;NGUA PORTUGUESA - At&#xe9; N&#xed;vel 1</rename>
+        <type>Number</type>
+        <length>-2</length>
+        <precision>-2</precision>
+        <conversion_mask/>
+        <date_format_lenient>false</date_format_lenient>
+        <date_format_locale/>
+        <date_format_timezone/>
+        <lenient_string_to_number>false</lenient_string_to_number>
+        <encoding/>
+        <decimal_symbol>,</decimal_symbol>
+        <grouping_symbol/>
+        <currency_symbol/>
+        <storage_type/>
+      </meta>      <meta>        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS INICIAIS - 5&#xba; ANO - L&#xcd;NGUA PORTUGUESA - N&#xed;vel 2</name>
+        <rename>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS INICIAIS - 5&#xba; ANO - L&#xcd;NGUA PORTUGUESA - N&#xed;vel 2</rename>
+        <type>Number</type>
+        <length>-2</length>
+        <precision>-2</precision>
+        <conversion_mask/>
+        <date_format_lenient>false</date_format_lenient>
+        <date_format_locale/>
+        <date_format_timezone/>
+        <lenient_string_to_number>false</lenient_string_to_number>
+        <encoding/>
+        <decimal_symbol>,</decimal_symbol>
+        <grouping_symbol/>
+        <currency_symbol/>
+        <storage_type/>
+      </meta>      <meta>        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS INICIAIS - 5&#xba; ANO - L&#xcd;NGUA PORTUGUESA - N&#xed;vel 3</name>
+        <rename>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS INICIAIS - 5&#xba; ANO - L&#xcd;NGUA PORTUGUESA - N&#xed;vel 3</rename>
+        <type>Number</type>
+        <length>-2</length>
+        <precision>-2</precision>
+        <conversion_mask/>
+        <date_format_lenient>false</date_format_lenient>
+        <date_format_locale/>
+        <date_format_timezone/>
+        <lenient_string_to_number>false</lenient_string_to_number>
+        <encoding/>
+        <decimal_symbol>,</decimal_symbol>
+        <grouping_symbol/>
+        <currency_symbol/>
+        <storage_type/>
+      </meta>      <meta>        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS INICIAIS - 5&#xba; ANO - L&#xcd;NGUA PORTUGUESA - N&#xed;vel 4</name>
+        <rename>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS INICIAIS - 5&#xba; ANO - L&#xcd;NGUA PORTUGUESA - N&#xed;vel 4</rename>
+        <type>Number</type>
+        <length>-2</length>
+        <precision>-2</precision>
+        <conversion_mask/>
+        <date_format_lenient>false</date_format_lenient>
+        <date_format_locale/>
+        <date_format_timezone/>
+        <lenient_string_to_number>false</lenient_string_to_number>
+        <encoding/>
+        <decimal_symbol>,</decimal_symbol>
+        <grouping_symbol/>
+        <currency_symbol/>
+        <storage_type/>
+      </meta>      <meta>        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS INICIAIS - 5&#xba; ANO - L&#xcd;NGUA PORTUGUESA - N&#xed;vel 5</name>
+        <rename>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS INICIAIS - 5&#xba; ANO - L&#xcd;NGUA PORTUGUESA - N&#xed;vel 5</rename>
+        <type>Number</type>
+        <length>-2</length>
+        <precision>-2</precision>
+        <conversion_mask/>
+        <date_format_lenient>false</date_format_lenient>
+        <date_format_locale/>
+        <date_format_timezone/>
+        <lenient_string_to_number>false</lenient_string_to_number>
+        <encoding/>
+        <decimal_symbol>,</decimal_symbol>
+        <grouping_symbol/>
+        <currency_symbol/>
+        <storage_type/>
+      </meta>      <meta>        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS INICIAIS - 5&#xba; ANO - L&#xcd;NGUA PORTUGUESA - N&#xed;vel 6</name>
+        <rename>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS INICIAIS - 5&#xba; ANO - L&#xcd;NGUA PORTUGUESA - N&#xed;vel 6</rename>
+        <type>Number</type>
+        <length>-2</length>
+        <precision>-2</precision>
+        <conversion_mask/>
+        <date_format_lenient>false</date_format_lenient>
+        <date_format_locale/>
+        <date_format_timezone/>
+        <lenient_string_to_number>false</lenient_string_to_number>
+        <encoding/>
+        <decimal_symbol>,</decimal_symbol>
+        <grouping_symbol/>
+        <currency_symbol/>
+        <storage_type/>
+      </meta>      <meta>        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS INICIAIS - 5&#xba; ANO - L&#xcd;NGUA PORTUGUESA - N&#xed;vel 7</name>
+        <rename>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS INICIAIS - 5&#xba; ANO - L&#xcd;NGUA PORTUGUESA - N&#xed;vel 7</rename>
+        <type>Number</type>
+        <length>-2</length>
+        <precision>-2</precision>
+        <conversion_mask/>
+        <date_format_lenient>false</date_format_lenient>
+        <date_format_locale/>
+        <date_format_timezone/>
+        <lenient_string_to_number>false</lenient_string_to_number>
+        <encoding/>
+        <decimal_symbol>,</decimal_symbol>
+        <grouping_symbol/>
+        <currency_symbol/>
+        <storage_type/>
+      </meta>      <meta>        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS INICIAIS - 5&#xba; ANO - L&#xcd;NGUA PORTUGUESA - N&#xed;vel 8</name>
+        <rename>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS INICIAIS - 5&#xba; ANO - L&#xcd;NGUA PORTUGUESA - N&#xed;vel 8</rename>
+        <type>Number</type>
+        <length>-2</length>
+        <precision>-2</precision>
+        <conversion_mask/>
+        <date_format_lenient>false</date_format_lenient>
+        <date_format_locale/>
+        <date_format_timezone/>
+        <lenient_string_to_number>false</lenient_string_to_number>
+        <encoding/>
+        <decimal_symbol>,</decimal_symbol>
+        <grouping_symbol/>
+        <currency_symbol/>
+        <storage_type/>
+      </meta>      <meta>        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS INICIAIS - 5&#xba; ANO - L&#xcd;NGUA PORTUGUESA - N&#xed;vel 9</name>
+        <rename>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS INICIAIS - 5&#xba; ANO - L&#xcd;NGUA PORTUGUESA - N&#xed;vel 9</rename>
+        <type>Number</type>
+        <length>-2</length>
+        <precision>-2</precision>
+        <conversion_mask/>
+        <date_format_lenient>false</date_format_lenient>
+        <date_format_locale/>
+        <date_format_timezone/>
+        <lenient_string_to_number>false</lenient_string_to_number>
+        <encoding/>
+        <decimal_symbol>,</decimal_symbol>
+        <grouping_symbol/>
+        <currency_symbol/>
+        <storage_type/>
+      </meta>      <meta>        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS INICIAIS - 5&#xba; ANO - MATEM&#xc1;TICA - Abaixo do N&#xed;vel 1</name>
+        <rename>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS INICIAIS - 5&#xba; ANO - MATEM&#xc1;TICA - Abaixo do N&#xed;vel 1</rename>
+        <type>Number</type>
+        <length>-2</length>
+        <precision>-2</precision>
+        <conversion_mask/>
+        <date_format_lenient>false</date_format_lenient>
+        <date_format_locale/>
+        <date_format_timezone/>
+        <lenient_string_to_number>false</lenient_string_to_number>
+        <encoding/>
+        <decimal_symbol>,</decimal_symbol>
+        <grouping_symbol/>
+        <currency_symbol/>
+        <storage_type/>
+      </meta>      <meta>        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS INICIAIS - 5&#xba; ANO - MATEM&#xc1;TICA - N&#xed;vel 1</name>
+        <rename>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS INICIAIS - 5&#xba; ANO - MATEM&#xc1;TICA - N&#xed;vel 1</rename>
+        <type>Number</type>
+        <length>-2</length>
+        <precision>-2</precision>
+        <conversion_mask/>
+        <date_format_lenient>false</date_format_lenient>
+        <date_format_locale/>
+        <date_format_timezone/>
+        <lenient_string_to_number>false</lenient_string_to_number>
+        <encoding/>
+        <decimal_symbol>,</decimal_symbol>
+        <grouping_symbol/>
+        <currency_symbol/>
+        <storage_type/>
+      </meta>      <meta>        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS INICIAIS - 5&#xba; ANO - MATEM&#xc1;TICA - N&#xed;vel 2</name>
+        <rename>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS INICIAIS - 5&#xba; ANO - MATEM&#xc1;TICA - N&#xed;vel 2</rename>
+        <type>Number</type>
+        <length>-2</length>
+        <precision>-2</precision>
+        <conversion_mask/>
+        <date_format_lenient>false</date_format_lenient>
+        <date_format_locale/>
+        <date_format_timezone/>
+        <lenient_string_to_number>false</lenient_string_to_number>
+        <encoding/>
+        <decimal_symbol>,</decimal_symbol>
+        <grouping_symbol/>
+        <currency_symbol/>
+        <storage_type/>
+      </meta>      <meta>        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS INICIAIS - 5&#xba; ANO - MATEM&#xc1;TICA - N&#xed;vel 3</name>
+        <rename>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS INICIAIS - 5&#xba; ANO - MATEM&#xc1;TICA - N&#xed;vel 3</rename>
+        <type>Number</type>
+        <length>-2</length>
+        <precision>-2</precision>
+        <conversion_mask/>
+        <date_format_lenient>false</date_format_lenient>
+        <date_format_locale/>
+        <date_format_timezone/>
+        <lenient_string_to_number>false</lenient_string_to_number>
+        <encoding/>
+        <decimal_symbol>,</decimal_symbol>
+        <grouping_symbol/>
+        <currency_symbol/>
+        <storage_type/>
+      </meta>      <meta>        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS INICIAIS - 5&#xba; ANO - MATEM&#xc1;TICA - N&#xed;vel 4</name>
+        <rename>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS INICIAIS - 5&#xba; ANO - MATEM&#xc1;TICA - N&#xed;vel 4</rename>
+        <type>Number</type>
+        <length>-2</length>
+        <precision>-2</precision>
+        <conversion_mask/>
+        <date_format_lenient>false</date_format_lenient>
+        <date_format_locale/>
+        <date_format_timezone/>
+        <lenient_string_to_number>false</lenient_string_to_number>
+        <encoding/>
+        <decimal_symbol>,</decimal_symbol>
+        <grouping_symbol/>
+        <currency_symbol/>
+        <storage_type/>
+      </meta>      <meta>        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS INICIAIS - 5&#xba; ANO - MATEM&#xc1;TICA - N&#xed;vel 5</name>
+        <rename>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS INICIAIS - 5&#xba; ANO - MATEM&#xc1;TICA - N&#xed;vel 5</rename>
+        <type>Number</type>
+        <length>-2</length>
+        <precision>-2</precision>
+        <conversion_mask/>
+        <date_format_lenient>false</date_format_lenient>
+        <date_format_locale/>
+        <date_format_timezone/>
+        <lenient_string_to_number>false</lenient_string_to_number>
+        <encoding/>
+        <decimal_symbol>,</decimal_symbol>
+        <grouping_symbol/>
+        <currency_symbol/>
+        <storage_type/>
+      </meta>      <meta>        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS INICIAIS - 5&#xba; ANO - MATEM&#xc1;TICA - N&#xed;vel 6</name>
+        <rename>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS INICIAIS - 5&#xba; ANO - MATEM&#xc1;TICA - N&#xed;vel 6</rename>
+        <type>Number</type>
+        <length>-2</length>
+        <precision>-2</precision>
+        <conversion_mask/>
+        <date_format_lenient>false</date_format_lenient>
+        <date_format_locale/>
+        <date_format_timezone/>
+        <lenient_string_to_number>false</lenient_string_to_number>
+        <encoding/>
+        <decimal_symbol>,</decimal_symbol>
+        <grouping_symbol/>
+        <currency_symbol/>
+        <storage_type/>
+      </meta>      <meta>        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS INICIAIS - 5&#xba; ANO - MATEM&#xc1;TICA - N&#xed;vel 7</name>
+        <rename>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS INICIAIS - 5&#xba; ANO - MATEM&#xc1;TICA - N&#xed;vel 7</rename>
+        <type>Number</type>
+        <length>-2</length>
+        <precision>-2</precision>
+        <conversion_mask/>
+        <date_format_lenient>false</date_format_lenient>
+        <date_format_locale/>
+        <date_format_timezone/>
+        <lenient_string_to_number>false</lenient_string_to_number>
+        <encoding/>
+        <decimal_symbol>,</decimal_symbol>
+        <grouping_symbol/>
+        <currency_symbol/>
+        <storage_type/>
+      </meta>      <meta>        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS INICIAIS - 5&#xba; ANO - MATEM&#xc1;TICA - N&#xed;vel 8</name>
+        <rename>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS INICIAIS - 5&#xba; ANO - MATEM&#xc1;TICA - N&#xed;vel 8</rename>
+        <type>Number</type>
+        <length>-2</length>
+        <precision>-2</precision>
+        <conversion_mask/>
+        <date_format_lenient>false</date_format_lenient>
+        <date_format_locale/>
+        <date_format_timezone/>
+        <lenient_string_to_number>false</lenient_string_to_number>
+        <encoding/>
+        <decimal_symbol>,</decimal_symbol>
+        <grouping_symbol/>
+        <currency_symbol/>
+        <storage_type/>
+      </meta>      <meta>        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS INICIAIS - 5&#xba; ANO - MATEM&#xc1;TICA - N&#xed;vel 9</name>
+        <rename>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS INICIAIS - 5&#xba; ANO - MATEM&#xc1;TICA - N&#xed;vel 9</rename>
+        <type>Number</type>
+        <length>-2</length>
+        <precision>-2</precision>
+        <conversion_mask/>
+        <date_format_lenient>false</date_format_lenient>
+        <date_format_locale/>
+        <date_format_timezone/>
+        <lenient_string_to_number>false</lenient_string_to_number>
+        <encoding/>
+        <decimal_symbol>,</decimal_symbol>
+        <grouping_symbol/>
+        <currency_symbol/>
+        <storage_type/>
+      </meta>      <meta>        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS INICIAIS - 5&#xba; ANO - MATEM&#xc1;TICA - N&#xed;vel 10</name>
+        <rename>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS INICIAIS - 5&#xba; ANO - MATEM&#xc1;TICA - N&#xed;vel 10</rename>
+        <type>Number</type>
+        <length>-2</length>
+        <precision>-2</precision>
+        <conversion_mask/>
+        <date_format_lenient>false</date_format_lenient>
+        <date_format_locale/>
+        <date_format_timezone/>
+        <lenient_string_to_number>false</lenient_string_to_number>
+        <encoding/>
+        <decimal_symbol>,</decimal_symbol>
+        <grouping_symbol/>
+        <currency_symbol/>
+        <storage_type/>
+      </meta>      <meta>        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS FINAIS - 9&#xba; ANO - L&#xcd;NGUA PORTUGUESA - Abaixo do N&#xed;vel 1</name>
+        <rename>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS FINAIS - 9&#xba; ANO - L&#xcd;NGUA PORTUGUESA - Abaixo do N&#xed;vel 1</rename>
+        <type>Number</type>
+        <length>-2</length>
+        <precision>-2</precision>
+        <conversion_mask/>
+        <date_format_lenient>false</date_format_lenient>
+        <date_format_locale/>
+        <date_format_timezone/>
+        <lenient_string_to_number>false</lenient_string_to_number>
+        <encoding/>
+        <decimal_symbol>,</decimal_symbol>
+        <grouping_symbol/>
+        <currency_symbol/>
+        <storage_type/>
+      </meta>      <meta>        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS FINAIS - 9&#xba; ANO - L&#xcd;NGUA PORTUGUESA - N&#xed;vel 1</name>
+        <rename>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS FINAIS - 9&#xba; ANO - L&#xcd;NGUA PORTUGUESA - N&#xed;vel 1</rename>
+        <type>Number</type>
+        <length>-2</length>
+        <precision>-2</precision>
+        <conversion_mask/>
+        <date_format_lenient>false</date_format_lenient>
+        <date_format_locale/>
+        <date_format_timezone/>
+        <lenient_string_to_number>false</lenient_string_to_number>
+        <encoding/>
+        <decimal_symbol>,</decimal_symbol>
+        <grouping_symbol/>
+        <currency_symbol/>
+        <storage_type/>
+      </meta>      <meta>        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS FINAIS - 9&#xba; ANO - L&#xcd;NGUA PORTUGUESA - N&#xed;vel 2</name>
+        <rename>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS FINAIS - 9&#xba; ANO - L&#xcd;NGUA PORTUGUESA - N&#xed;vel 2</rename>
+        <type>Number</type>
+        <length>-2</length>
+        <precision>-2</precision>
+        <conversion_mask/>
+        <date_format_lenient>false</date_format_lenient>
+        <date_format_locale/>
+        <date_format_timezone/>
+        <lenient_string_to_number>false</lenient_string_to_number>
+        <encoding/>
+        <decimal_symbol>,</decimal_symbol>
+        <grouping_symbol/>
+        <currency_symbol/>
+        <storage_type/>
+      </meta>      <meta>        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS FINAIS - 9&#xba; ANO - L&#xcd;NGUA PORTUGUESA - N&#xed;vel 3</name>
+        <rename>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS FINAIS - 9&#xba; ANO - L&#xcd;NGUA PORTUGUESA - N&#xed;vel 3</rename>
+        <type>Number</type>
+        <length>-2</length>
+        <precision>-2</precision>
+        <conversion_mask/>
+        <date_format_lenient>false</date_format_lenient>
+        <date_format_locale/>
+        <date_format_timezone/>
+        <lenient_string_to_number>false</lenient_string_to_number>
+        <encoding/>
+        <decimal_symbol>,</decimal_symbol>
+        <grouping_symbol/>
+        <currency_symbol/>
+        <storage_type/>
+      </meta>      <meta>        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS FINAIS - 9&#xba; ANO - L&#xcd;NGUA PORTUGUESA - N&#xed;vel 4</name>
+        <rename>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS FINAIS - 9&#xba; ANO - L&#xcd;NGUA PORTUGUESA - N&#xed;vel 4</rename>
+        <type>Number</type>
+        <length>-2</length>
+        <precision>-2</precision>
+        <conversion_mask/>
+        <date_format_lenient>false</date_format_lenient>
+        <date_format_locale/>
+        <date_format_timezone/>
+        <lenient_string_to_number>false</lenient_string_to_number>
+        <encoding/>
+        <decimal_symbol>,</decimal_symbol>
+        <grouping_symbol/>
+        <currency_symbol/>
+        <storage_type/>
+      </meta>      <meta>        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS FINAIS - 9&#xba; ANO - L&#xcd;NGUA PORTUGUESA - N&#xed;vel 5</name>
+        <rename>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS FINAIS - 9&#xba; ANO - L&#xcd;NGUA PORTUGUESA - N&#xed;vel 5</rename>
+        <type>Number</type>
+        <length>-2</length>
+        <precision>-2</precision>
+        <conversion_mask/>
+        <date_format_lenient>false</date_format_lenient>
+        <date_format_locale/>
+        <date_format_timezone/>
+        <lenient_string_to_number>false</lenient_string_to_number>
+        <encoding/>
+        <decimal_symbol>,</decimal_symbol>
+        <grouping_symbol/>
+        <currency_symbol/>
+        <storage_type/>
+      </meta>      <meta>        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS FINAIS - 9&#xba; ANO - L&#xcd;NGUA PORTUGUESA - N&#xed;vel 6</name>
+        <rename>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS FINAIS - 9&#xba; ANO - L&#xcd;NGUA PORTUGUESA - N&#xed;vel 6</rename>
+        <type>Number</type>
+        <length>-2</length>
+        <precision>-2</precision>
+        <conversion_mask/>
+        <date_format_lenient>false</date_format_lenient>
+        <date_format_locale/>
+        <date_format_timezone/>
+        <lenient_string_to_number>false</lenient_string_to_number>
+        <encoding/>
+        <decimal_symbol>,</decimal_symbol>
+        <grouping_symbol/>
+        <currency_symbol/>
+        <storage_type/>
+      </meta>      <meta>        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS FINAIS - 9&#xba; ANO - L&#xcd;NGUA PORTUGUESA - N&#xed;vel 7</name>
+        <rename>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS FINAIS - 9&#xba; ANO - L&#xcd;NGUA PORTUGUESA - N&#xed;vel 7</rename>
+        <type>Number</type>
+        <length>-2</length>
+        <precision>-2</precision>
+        <conversion_mask/>
+        <date_format_lenient>false</date_format_lenient>
+        <date_format_locale/>
+        <date_format_timezone/>
+        <lenient_string_to_number>false</lenient_string_to_number>
+        <encoding/>
+        <decimal_symbol>,</decimal_symbol>
+        <grouping_symbol/>
+        <currency_symbol/>
+        <storage_type/>
+      </meta>      <meta>        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS FINAIS - 9&#xba; ANO - L&#xcd;NGUA PORTUGUESA - N&#xed;vel 8</name>
+        <rename>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS FINAIS - 9&#xba; ANO - L&#xcd;NGUA PORTUGUESA - N&#xed;vel 8</rename>
+        <type>Number</type>
+        <length>-2</length>
+        <precision>-2</precision>
+        <conversion_mask/>
+        <date_format_lenient>false</date_format_lenient>
+        <date_format_locale/>
+        <date_format_timezone/>
+        <lenient_string_to_number>false</lenient_string_to_number>
+        <encoding/>
+        <decimal_symbol>,</decimal_symbol>
+        <grouping_symbol/>
+        <currency_symbol/>
+        <storage_type/>
+      </meta>      <meta>        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS FINAIS - 9&#xba; ANO - MATEM&#xc1;TICA - Abaixo do N&#xed;vel 1</name>
+        <rename>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS FINAIS - 9&#xba; ANO - MATEM&#xc1;TICA - Abaixo do N&#xed;vel 1</rename>
+        <type>Number</type>
+        <length>-2</length>
+        <precision>-2</precision>
+        <conversion_mask/>
+        <date_format_lenient>false</date_format_lenient>
+        <date_format_locale/>
+        <date_format_timezone/>
+        <lenient_string_to_number>false</lenient_string_to_number>
+        <encoding/>
+        <decimal_symbol>,</decimal_symbol>
+        <grouping_symbol/>
+        <currency_symbol/>
+        <storage_type/>
+      </meta>      <meta>        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS FINAIS - 9&#xba; ANO - MATEM&#xc1;TICA - N&#xed;vel 1</name>
+        <rename>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS FINAIS - 9&#xba; ANO - MATEM&#xc1;TICA - N&#xed;vel 1</rename>
+        <type>Number</type>
+        <length>-2</length>
+        <precision>-2</precision>
+        <conversion_mask/>
+        <date_format_lenient>false</date_format_lenient>
+        <date_format_locale/>
+        <date_format_timezone/>
+        <lenient_string_to_number>false</lenient_string_to_number>
+        <encoding/>
+        <decimal_symbol>,</decimal_symbol>
+        <grouping_symbol/>
+        <currency_symbol/>
+        <storage_type/>
+      </meta>      <meta>        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS FINAIS - 9&#xba; ANO - MATEM&#xc1;TICA - N&#xed;vel 2</name>
+        <rename>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS FINAIS - 9&#xba; ANO - MATEM&#xc1;TICA - N&#xed;vel 2</rename>
+        <type>Number</type>
+        <length>-2</length>
+        <precision>-2</precision>
+        <conversion_mask/>
+        <date_format_lenient>false</date_format_lenient>
+        <date_format_locale/>
+        <date_format_timezone/>
+        <lenient_string_to_number>false</lenient_string_to_number>
+        <encoding/>
+        <decimal_symbol>,</decimal_symbol>
+        <grouping_symbol/>
+        <currency_symbol/>
+        <storage_type/>
+      </meta>      <meta>        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS FINAIS - 9&#xba; ANO - MATEM&#xc1;TICA - N&#xed;vel 3</name>
+        <rename>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS FINAIS - 9&#xba; ANO - MATEM&#xc1;TICA - N&#xed;vel 3</rename>
+        <type>Number</type>
+        <length>-2</length>
+        <precision>-2</precision>
+        <conversion_mask/>
+        <date_format_lenient>false</date_format_lenient>
+        <date_format_locale/>
+        <date_format_timezone/>
+        <lenient_string_to_number>false</lenient_string_to_number>
+        <encoding/>
+        <decimal_symbol>,</decimal_symbol>
+        <grouping_symbol/>
+        <currency_symbol/>
+        <storage_type/>
+      </meta>      <meta>        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS FINAIS - 9&#xba; ANO - MATEM&#xc1;TICA - N&#xed;vel 4</name>
+        <rename>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS FINAIS - 9&#xba; ANO - MATEM&#xc1;TICA - N&#xed;vel 4</rename>
+        <type>Number</type>
+        <length>-2</length>
+        <precision>-2</precision>
+        <conversion_mask/>
+        <date_format_lenient>false</date_format_lenient>
+        <date_format_locale/>
+        <date_format_timezone/>
+        <lenient_string_to_number>false</lenient_string_to_number>
+        <encoding/>
+        <decimal_symbol>,</decimal_symbol>
+        <grouping_symbol/>
+        <currency_symbol/>
+        <storage_type/>
+      </meta>      <meta>        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS FINAIS - 9&#xba; ANO - MATEM&#xc1;TICA - N&#xed;vel 5</name>
+        <rename>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS FINAIS - 9&#xba; ANO - MATEM&#xc1;TICA - N&#xed;vel 5</rename>
+        <type>Number</type>
+        <length>-2</length>
+        <precision>-2</precision>
+        <conversion_mask/>
+        <date_format_lenient>false</date_format_lenient>
+        <date_format_locale/>
+        <date_format_timezone/>
+        <lenient_string_to_number>false</lenient_string_to_number>
+        <encoding/>
+        <decimal_symbol>,</decimal_symbol>
+        <grouping_symbol/>
+        <currency_symbol/>
+        <storage_type/>
+      </meta>      <meta>        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS FINAIS - 9&#xba; ANO - MATEM&#xc1;TICA - N&#xed;vel 6</name>
+        <rename>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS FINAIS - 9&#xba; ANO - MATEM&#xc1;TICA - N&#xed;vel 6</rename>
+        <type>Number</type>
+        <length>-2</length>
+        <precision>-2</precision>
+        <conversion_mask/>
+        <date_format_lenient>false</date_format_lenient>
+        <date_format_locale/>
+        <date_format_timezone/>
+        <lenient_string_to_number>false</lenient_string_to_number>
+        <encoding/>
+        <decimal_symbol>,</decimal_symbol>
+        <grouping_symbol/>
+        <currency_symbol/>
+        <storage_type/>
+      </meta>      <meta>        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS FINAIS - 9&#xba; ANO - MATEM&#xc1;TICA - N&#xed;vel 7</name>
+        <rename>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS FINAIS - 9&#xba; ANO - MATEM&#xc1;TICA - N&#xed;vel 7</rename>
+        <type>Number</type>
+        <length>-2</length>
+        <precision>-2</precision>
+        <conversion_mask/>
+        <date_format_lenient>false</date_format_lenient>
+        <date_format_locale/>
+        <date_format_timezone/>
+        <lenient_string_to_number>false</lenient_string_to_number>
+        <encoding/>
+        <decimal_symbol>,</decimal_symbol>
+        <grouping_symbol/>
+        <currency_symbol/>
+        <storage_type/>
+      </meta>      <meta>        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS FINAIS - 9&#xba; ANO - MATEM&#xc1;TICA - N&#xed;vel 8</name>
+        <rename>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS FINAIS - 9&#xba; ANO - MATEM&#xc1;TICA - N&#xed;vel 8</rename>
+        <type>Number</type>
+        <length>-2</length>
+        <precision>-2</precision>
+        <conversion_mask/>
+        <date_format_lenient>false</date_format_lenient>
+        <date_format_locale/>
+        <date_format_timezone/>
+        <lenient_string_to_number>false</lenient_string_to_number>
+        <encoding/>
+        <decimal_symbol>,</decimal_symbol>
+        <grouping_symbol/>
+        <currency_symbol/>
+        <storage_type/>
+      </meta>      <meta>        <name>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS FINAIS - 9&#xba; ANO - MATEM&#xc1;TICA - N&#xed;vel 9</name>
+        <rename>DISTRIBUI&#xc7;&#xc3;O PERCENTUAL DOS ALUNOS POR N&#xcd;VEL DE PROFICI&#xca;NCIA - ANOS FINAIS - 9&#xba; ANO - MATEM&#xc1;TICA - N&#xed;vel 9</rename>
+        <type>Number</type>
+        <length>-2</length>
+        <precision>-2</precision>
+        <conversion_mask/>
+        <date_format_lenient>false</date_format_lenient>
+        <date_format_locale/>
+        <date_format_timezone/>
+        <lenient_string_to_number>false</lenient_string_to_number>
+        <encoding/>
+        <decimal_symbol>,</decimal_symbol>
         <grouping_symbol/>
         <currency_symbol/>
         <storage_type/>
       </meta>    </fields>     <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>640</xloc>
-      <yloc>272</yloc>
+      <xloc>654</xloc>
+      <yloc>259</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
