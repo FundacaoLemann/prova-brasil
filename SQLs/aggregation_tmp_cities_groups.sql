@@ -1,4 +1,12 @@
 START TRANSACTION;
+
+ALTER TABLE aggregation_tmp 
+ADD COLUMN  `city_group_id` smallint(5) unsigned DEFAULT NULL AFTER `state_id`;
+
+ALTER TABLE aggregation_tmp
+DROP INDEX  `tmp_filter`,
+ADD UNIQUE KEY `tmp_filter` (`dependence_id`,`discipline_id`,`grade_id`,`localization_id`,`state_id`,`city_id`,`school_id`, `city_group_id`);
+
 INSERT INTO aggregation_tmp
 	-- Grupo de Cidade 
 	SELECT
@@ -138,7 +146,7 @@ UPDATE aggregation_tmp AS a SET
     level_quantitative=(SELECT l.level_quantitative FROM level AS l WHERE l.discipline_id=a.discipline_id AND l.grade_id=a.grade_id AND l.min <= a.average AND l.max > a.average),
     level_qualitative=(SELECT l.level_qualitative FROM level AS l WHERE l.discipline_id=a.discipline_id AND l.grade_id=a.grade_id AND l.min <= a.average AND l.max > a.average)
 WHERE a.ID_ESCOLA_ALUNO=0 AND a.ID_MUNICIPIO=0 AND a.city_group_id<>0 AND a.state_id<>0 AND a.localization_id<>0 AND a.dependence_id=0;
-
+ 
 -- Grupo de Cidades (Localizacao=Todas, Dependencia=Todas)
 UPDATE aggregation_tmp AS a SET 
     enrolled=(SELECT IFNULL(SUM(IF(a.grade_id=5, e.NU_MATRICULADOS_CENSO_5EF, e.NU_MATRICULADOS_CENSO_9EF)), 0) FROM escolas AS e WHERE e.ID_MUNICIPIO IN (SELECT ibge_id FROM waitress_entities.city AS c INNER JOIN waitress_entities.city_in_group AS cg ON cg.city_id=c.id WHERE cg.city_group_id=a.city_group_id)),
@@ -323,6 +331,5 @@ WHERE
         AND a.state_id <> 0
         AND a.dependence_id = 0
         AND a.localization_id = 0;
-
 
 COMMIT;
