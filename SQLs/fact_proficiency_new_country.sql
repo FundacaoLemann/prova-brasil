@@ -25,9 +25,9 @@ INSERT INTO fact_proficiency_new
 
     1 AS disclosure 
   FROM
-  provabrasil_2013.aggregation_students AS s
+  provabrasil_2015.aggregation_students AS s
   INNER JOIN
-    provabrasil_2013.aggregation_tmp AS t
+    provabrasil_2015.aggregation_tmp AS t
   ON
     t.dependence_id=s.dependence_id AND t.discipline_id=s.discipline_id AND t.grade_id=s.grade_id AND t.localization_id=s.localization_id AND t.state_id=100 AND t.city_id=0 AND t.school_id=0
   GROUP BY t.dim_regional_aggregation, t.dim_politic_aggregation;
@@ -58,9 +58,9 @@ INSERT INTO fact_proficiency_new
 
     1 AS disclosure 
   FROM
-  provabrasil_2013.aggregation_students AS s
+  provabrasil_2015.aggregation_students AS s
   INNER JOIN
-    provabrasil_2013.aggregation_tmp AS t
+    provabrasil_2015.aggregation_tmp AS t
   ON
     t.dependence_id=s.dependence_id AND t.discipline_id=s.discipline_id AND t.grade_id=s.grade_id AND t.localization_id=0 AND t.state_id=100 AND t.city_id=0 AND t.school_id=0
   GROUP BY t.dim_regional_aggregation, t.dim_politic_aggregation;
@@ -91,9 +91,9 @@ INSERT INTO fact_proficiency_new
 
     1 AS disclosure 
   FROM
-  provabrasil_2013.aggregation_students AS s
+  provabrasil_2015.aggregation_students AS s
   INNER JOIN
-    provabrasil_2013.aggregation_tmp AS t
+    provabrasil_2015.aggregation_tmp AS t
   ON
     t.dependence_id=0 AND t.discipline_id=s.discipline_id AND t.grade_id=s.grade_id AND t.localization_id=s.localization_id AND t.state_id=100 AND t.city_id=0 AND t.school_id=0
   WHERE s.dependence_id<>4
@@ -125,9 +125,9 @@ INSERT INTO fact_proficiency_new
 
     1 AS disclosure 
   FROM
-  provabrasil_2013.aggregation_students AS s
+  provabrasil_2015.aggregation_students AS s
   INNER JOIN
-    provabrasil_2013.aggregation_tmp AS t
+    provabrasil_2015.aggregation_tmp AS t
   ON
     t.dependence_id=0 AND t.discipline_id=s.discipline_id AND t.grade_id=s.grade_id AND t.localization_id=0 AND t.state_id=100 AND t.city_id=0 AND t.school_id=0
   WHERE s.dependence_id<>4

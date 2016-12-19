@@ -184,13 +184,13 @@
 
     1 AS disclosure 
   FROM 
-  provabrasil_2013.aggregation_students AS s
+  provabrasil_2015.aggregation_students AS s
   INNER JOIN
-    provabrasil_2013.aggregation_tmp AS t
+    provabrasil_2015.aggregation_tmp AS t
   ON
     t.dependence_id=s.dependence_id AND t.discipline_id=s.discipline_id AND t.grade_id=s.grade_id AND t.localization_id=s.localization_id AND t.state_id=s.state_id AND t.ID_MUNICIPIO=s.ID_MUNICIPIO AND t.ID_ESCOLA_ALUNO=s.ID_ESCOLA_ALUNO 
   INNER JOIN 
-    provabrasil_2013.escolas AS e
+    provabrasil_2015.escolas AS e
   ON
     e.ID_DEPENDENCIA_ADM = t.dependence_id
                 AND e.ID_LOCALIZACAO = t.localization_id

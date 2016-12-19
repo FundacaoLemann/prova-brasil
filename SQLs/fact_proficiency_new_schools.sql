@@ -26,9 +26,9 @@ SELECT
 
     1 AS disclosure 
   FROM
-  provabrasil_2013.aggregation_students AS s
+  provabrasil_2015.aggregation_students AS s
   INNER JOIN
-    provabrasil_2013.aggregation_tmp AS t
+    provabrasil_2015.aggregation_tmp AS t
   ON
     t.dependence_id=s.dependence_id AND t.discipline_id=s.discipline_id AND t.grade_id=s.grade_id AND t.localization_id=s.localization_id AND t.state_id=s.state_id AND t.city_id=s.city_id AND t.school_id=s.school_id
   WHERE t.masked=0

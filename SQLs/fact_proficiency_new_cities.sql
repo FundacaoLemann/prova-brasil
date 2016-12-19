@@ -26,9 +26,9 @@ INSERT INTO fact_proficiency_new
 
     1 AS disclosure 
   FROM
-  provabrasil_2013.aggregation_students AS s
+  provabrasil_2015.aggregation_students AS s
   INNER JOIN
-    provabrasil_2013.aggregation_tmp AS t
+    provabrasil_2015.aggregation_tmp AS t
   ON
     t.dependence_id=s.dependence_id AND t.discipline_id=s.discipline_id AND t.grade_id=s.grade_id AND t.localization_id=s.localization_id AND t.state_id=s.state_id AND t.city_id=s.city_id AND t.school_id=0
   WHERE t.masked=0 AND t.needs_to_be_from_sheet=0 
@@ -60,9 +60,9 @@ INSERT INTO fact_proficiency_new
 
     1 AS disclosure 
   FROM
-  provabrasil_2013.aggregation_students AS s
+  provabrasil_2015.aggregation_students AS s
   INNER JOIN
-    provabrasil_2013.aggregation_tmp AS t
+    provabrasil_2015.aggregation_tmp AS t
   ON
     t.dependence_id=s.dependence_id AND t.discipline_id=s.discipline_id AND t.grade_id=s.grade_id AND t.localization_id=0 AND t.state_id=s.state_id AND t.city_id=s.city_id AND t.school_id=0
   WHERE t.masked=0 AND t.needs_to_be_from_sheet=0
@@ -94,9 +94,9 @@ INSERT INTO fact_proficiency_new
 
     1 AS disclosure 
   FROM
-  provabrasil_2013.aggregation_students AS s
+  provabrasil_2015.aggregation_students AS s
   INNER JOIN
-    provabrasil_2013.aggregation_tmp AS t
+    provabrasil_2015.aggregation_tmp AS t
   ON
     t.dependence_id=0 AND t.discipline_id=s.discipline_id AND t.grade_id=s.grade_id AND t.localization_id=s.localization_id AND t.state_id=s.state_id AND t.city_id=s.city_id AND t.school_id=0
   WHERE t.masked=0 AND t.needs_to_be_from_sheet=0 AND s.dependence_id<>4 
@@ -128,9 +128,9 @@ INSERT INTO fact_proficiency_new
 
     1 AS disclosure 
   FROM
-  provabrasil_2013.aggregation_students AS s
+  provabrasil_2015.aggregation_students AS s
   INNER JOIN
-    provabrasil_2013.aggregation_tmp AS t
+    provabrasil_2015.aggregation_tmp AS t
   ON
     t.dependence_id=0 AND t.discipline_id=s.discipline_id AND t.grade_id=s.grade_id AND t.localization_id=0 AND t.state_id=s.state_id AND t.city_id=s.city_id AND t.school_id=0
   WHERE t.masked=0 AND t.needs_to_be_from_sheet=0 AND s.dependence_id<>4 
@@ -224,9 +224,9 @@ INSERT INTO fact_proficiency_new
 
     4 AS disclosure 
   FROM 
-    provabrasil_2013.aggregation_tmp AS t
+    provabrasil_2015.aggregation_tmp AS t
   INNER JOIN 
-    provabrasil_2013.resultados_municipios AS r 
+    provabrasil_2015.resultados_municipios AS r 
   ON
     r.dependence_id = t.dependence_id
                 AND r.localization_id = t.localization_id
