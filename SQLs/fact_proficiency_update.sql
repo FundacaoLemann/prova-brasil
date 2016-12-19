@@ -45,7 +45,7 @@ INSERT INTO waitress_dw_prova_brasil.fact_proficiency_new SELECT
 	f.qualitative_3,
 	f.disclosure
 FROM waitress_dw_prova_brasil.fact_proficiency AS f
-WHERE f.dim_politic_aggregation_id NOT IN (SELECT p.id FROM waitress_dw_prova_brasil.dim_politic_aggregation AS p WHERE p.edition_id=5);
+WHERE f.dim_politic_aggregation_id NOT IN (SELECT p.id FROM waitress_dw_prova_brasil.dim_politic_aggregation AS p WHERE p.edition_id=6);
 
 -- Copy data directly from 2013
 INSERT INTO waitress_dw_prova_brasil.fact_proficiency_new SELECT * FROM fact_proficiency_new;
