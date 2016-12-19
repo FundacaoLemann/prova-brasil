@@ -3,7 +3,7 @@ INSERT INTO aggregation_tmp
 	-- Grupo de Cidade 
 	SELECT
 	 waitress_dw_prova_brasil.getDimRegionalAggregationCityGroup(a.state_id, cg.city_group_id) as dim_regional_aggregation,
-	 waitress_dw_prova_brasil.getDimPoliticAggregation(5, a.dependence_id, a.localization_id, a.grade_id, a.discipline_id) as dim_politic_aggregation,
+	 waitress_dw_prova_brasil.getDimPoliticAggregation(6, a.dependence_id, a.localization_id, a.grade_id, a.discipline_id) as dim_politic_aggregation,
 	 a.dependence_id AS dependence_id,
 	 a.localization_id AS localization_id,
 	 a.grade_id AS grade_id,
@@ -31,7 +31,7 @@ INSERT INTO aggregation_tmp
 	-- Grupo de Cidade (Localizacao=Todas)
 	SELECT
 	 waitress_dw_prova_brasil.getDimRegionalAggregationCityGroup(a.state_id, cg.city_group_id) as dim_regional_aggregation,
-	 waitress_dw_prova_brasil.getDimPoliticAggregation(5, a.dependence_id, 0, a.grade_id, a.discipline_id) as dim_politic_aggregation,
+	 waitress_dw_prova_brasil.getDimPoliticAggregation(6, a.dependence_id, 0, a.grade_id, a.discipline_id) as dim_politic_aggregation,
 	 a.dependence_id AS dependence_id,
 	 0 AS localization_id,
 	 a.grade_id AS grade_id,
@@ -59,7 +59,7 @@ INSERT INTO aggregation_tmp
 	-- Grupo de Cidade (Dependencia=Todas) 
 	SELECT
 	 waitress_dw_prova_brasil.getDimRegionalAggregationCityGroup(a.state_id, cg.city_group_id) as dim_regional_aggregation,
-	 waitress_dw_prova_brasil.getDimPoliticAggregation(5, 0, a.localization_id, a.grade_id, a.discipline_id) as dim_politic_aggregation,
+	 waitress_dw_prova_brasil.getDimPoliticAggregation(6, 0, a.localization_id, a.grade_id, a.discipline_id) as dim_politic_aggregation,
 	 0 AS dependence_id,
 	 a.localization_id AS localization_id,
 	 a.grade_id AS grade_id,
@@ -87,7 +87,7 @@ INSERT INTO aggregation_tmp
 	-- Grupo de Cidade (Localizacao=Todas, Dependencia=Todas)
 	SELECT
 	 waitress_dw_prova_brasil.getDimRegionalAggregationCityGroup(a.state_id, cg.city_group_id) as dim_regional_aggregation,
-	 waitress_dw_prova_brasil.getDimPoliticAggregation(5, 0, 0, a.grade_id, a.discipline_id) as dim_politic_aggregation,
+	 waitress_dw_prova_brasil.getDimPoliticAggregation(6, 0, 0, a.grade_id, a.discipline_id) as dim_politic_aggregation,
 	 0 AS dependence_id,
 	 0 AS localization_id,
 	 a.grade_id AS grade_id,

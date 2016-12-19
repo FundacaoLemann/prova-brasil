@@ -3,7 +3,7 @@ INSERT INTO aggregation_tmp
 	-- Escola 
 	SELECT
 	 waitress_dw_prova_brasil.getDimRegionalAggregation(a.state_id, a.city_id, a.school_id, 0) as dim_regional_aggregation,
-	 waitress_dw_prova_brasil.getDimPoliticAggregation(5, a.dependence_id, a.localization_id, a.grade_id, a.discipline_id) as dim_politic_aggregation,
+	 waitress_dw_prova_brasil.getDimPoliticAggregation(6, a.dependence_id, a.localization_id, a.grade_id, a.discipline_id) as dim_politic_aggregation,
 	 a.dependence_id AS dependence_id,
 	 a.localization_id AS localization_id,
 	 a.grade_id AS grade_id,
