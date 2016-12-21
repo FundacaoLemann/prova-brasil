@@ -7,5 +7,5 @@ INSERT INTO waitress_dw_prova_brasil.school SELECT
 	city_id AS city_id,
 	localization_id AS localization_id,
 	dependence_id AS dependence_id
-FROM provabrasil_2013.aggregation_tmp AS t WHERE t.school_id<>0 AND t.masked=0;
+FROM provabrasil_2015.aggregation_tmp AS t WHERE t.school_id<>0 AND t.masked=0;
 COMMIT;
