@@ -1,4 +1,3 @@
-START TRANSACTION;
 INSERT INTO aggregation_tmp
     -- Estado
     SELECT
@@ -98,6 +97,7 @@ INSERT INTO aggregation_tmp
     WHERE a.dependence_id<>4
     GROUP BY  a.state_id, a.grade_id, a.discipline_id;
 
+START TRANSACTION;
 -- Estado
 UPDATE aggregation_tmp AS a INNER JOIN waitress_entities.state AS s ON s.id=a.state_id SET 
     enrolled=(SELECT IFNULL(SUM(IF(a.grade_id=5, e.NU_MATRICULADOS_CENSO_5EF, e.NU_MATRICULADOS_CENSO_9EF)), 0) FROM escolas AS e WHERE e.ID_UF=s.ibge_id AND e.ID_DEPENDENCIA_ADM=a.dependence_id AND e.ID_LOCALIZACAO=a.localization_id),
