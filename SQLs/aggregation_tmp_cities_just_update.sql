@@ -1,3 +1,4 @@
+START TRANSACTION;
 UPDATE aggregation_tmp AS a
 SET
     needs_to_be_from_sheet=1
@@ -33,3 +34,4 @@ WHERE
         r.dependence_id = a.dependence_id
             AND r.localization_id = a.localization_id
             AND r.ibge_id = a.ID_MUNICIPIO) IS NOT NULL;
+COMMIT;
