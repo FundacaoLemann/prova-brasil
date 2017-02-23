@@ -1,0 +1,72 @@
+Avalie o estado de conservação dos itens e equipamentos do prédio - Telhado,Bom,Regular,Ruim,Inexistente
+Avalie o estado de conservação dos itens e equipamentos do prédio - Paredes,Bom,Regular,Ruim,Inexistente
+Avalie o estado de conservação dos itens e equipamentos do prédio - Piso,Bom,Regular,Ruim,Inexistente
+Avalie o estado de conservação dos itens e equipamentos do prédio - Entrada do prédio,Bom,Regular,Ruim,Inexistente
+Avalie o estado de conservação dos itens e equipamentos do prédio - Pátio,Bom,Regular,Ruim,Inexistente
+Avalie o estado de conservação dos itens e equipamentos do prédio - Corredores,Bom,Regular,Ruim,Inexistente
+Avalie o estado de conservação dos itens e equipamentos do prédio - Salas de aula,Bom,Regular,Ruim,Inexistente
+Avalie o estado de conservação dos itens e equipamentos do prédio - Portas,Bom,Regular,Ruim,Inexistente
+Avalie o estado de conservação dos itens e equipamentos do prédio - Janelas,Bom,Regular,Ruim,Inexistente
+Avalie o estado de conservação dos itens e equipamentos do prédio - Banheiros,Bom,Regular,Ruim,Inexistente
+Avalie o estado de conservação dos itens e equipamentos do prédio - Cozinha,Bom,Regular,Ruim,Inexistente
+Avalie o estado de conservação dos itens e equipamentos do prédio - Instalações Hidráulicas,Bom,Regular,Ruim,Inexistente
+Avalie o estado de conservação dos itens e equipamentos do prédio - Instalações Elétricas,Bom,Regular,Ruim,Inexistente
+Avalie a quantidade de salas de aula que atendem aos seguintes critérios: São iluminadas de forma adequada. (Observe se a iluminação natural ou artificial garante boa claridade no interior das salas.),Todas.,Mais da metade.,Menos da metade.,Nenhuma.
+Avalie a quantidade de salas de aula que atendem aos seguintes critérios: São arejadas de forma adequada.,Todas.,Mais da metade.,Menos da metade.,Nenhuma.
+Avalie os seguintes aspectos em relação à segurança da escola e dos alunos: Controle de entrada e saída de alunos.,Bom,Regular,Ruim,Inexistente
+Avalie os seguintes aspectos em relação à segurança da escola e dos alunos: Controle de entrada de pessoas estranhas na escola.,Bom,Regular,Ruim,Inexistente
+Avalie os seguintes aspectos em relação à segurança da escola e dos alunos: Vigilância para o período diurno.,Bom,Regular,Ruim,Inexistente
+Avalie os seguintes aspectos em relação à segurança da escola e dos alunos: Vigilância para o período noturno.,Bom,Regular,Ruim,Inexistente
+Avalie os seguintes aspectos em relação à segurança da escola e dos alunos: Vigilância para os finais de semana e feriados.,Bom,Regular,Ruim,Inexistente
+"Avalie os seguintes aspectos em relação à segurança da escola e dos alunos: Esquema de policiamento para inibição de furtos, roubos e outras formas de violência.",Bom,Regular,Ruim,Inexistente
+Avalie os seguintes aspectos em relação à segurança da escola e dos alunos: Esquema de policiamento para inibição de tráfico de tóxicos/drogas dentro da escola.,Bom,Regular,Ruim,Inexistente
+Avalie os seguintes aspectos em relação à segurança da escola e dos alunos: Esquema de policiamento para inibição de tráfico de tóxicos/drogas nas imediações da escola.,Bom,Regular,Ruim,Inexistente
+"Avalie os seguintes aspectos em relação à segurança da escola e dos alunos: Sistema de proteção contra incêndio (alarme de fumaça e temperatura, extintores contra incêndio dentro do
+prazo de validade, mangueiras etc.).Avalie os seguintes aspectos em relação à segurança da escola e dos alunos: Sistema de proteção contra incêndio (alarme de fumaça e temperatura, extintores contra incêndio dentro do
+prazo de validade, mangueiras etc.).Avalie os seguintes aspectos em relação à segurança da escola e dos alunos: Sistema de proteção contra incêndio (alarme de fumaça e temperatura, extintores contra incêndio dentro do
+prazo de validade, mangueiras etc.).Avalie os seguintes aspectos em relação à segurança da escola e dos alunos: Sistema de proteção contra incêndio (alarme de fumaça e temperatura, extintores contra incêndio dentro do
+prazo de validade, mangueiras etc.).",Bom,Regular,Ruim,Inexistente
+Avalie os seguintes aspectos em relação à segurança da escola e dos alunos: Iluminação do lado de fora da escola.,Bom,Regular,Ruim,Inexistente
+"Avalie os seguintes aspectos em relação à segurança da escola e dos alunos: Há muros, grades ou cercas em condições de garantir a segurança dos alunos? (Caso existam buracos ou aberturas que permitam o acesso de estranhos, responder NÃO.)",Sim,Não,,
+"Avalie os seguintes aspectos em relação à segurança da escola e dos alunos: Os equipamentos mais caros (computadores, projetores, televisão, vídeo etc.) são guardados em salas seguras ou possuem mecanismos de proteção (cadeados, grades, travas, trancas etc.)?",Sim,Não,,
+Avalie os seguintes aspectos em relação à segurança da escola e dos alunos: Os portões que dão acesso à parte externa permanecem trancados durante o horário de funcionamento da escola?,Sim,Não,,
+Avalie os seguintes aspectos em relação à segurança da escola e dos alunos: A escola adota alguma medida de segurança para proteger os alunos nas suas imediações?,Sim,Não,,
+"Avalie os seguintes aspectos em relação à segurança da escola e dos alunos: A escola apresenta sinais de depredação (vidros, portas e janelas quebradas, lâmpadas estouradas etc.)?","Sim, muita.","Sim, pouca.",Não.,
+Indique se nesta escola existem ou não os recursos apontados e quais são suas condiçoes de uso. Computadores para uso dos alunos. ,Bom,Regular,Ruim,Inexistente
+Indique se nesta escola existem ou não os recursos apontados e quais são suas condiçoes de uso. Acesso à internet para uso dos alunos.,Bom,Regular,Ruim,Inexistente
+Indique se nesta escola existem ou não os recursos apontados e quais são suas condiçoes de uso. Computadores para uso dos professores.,Bom,Regular,Ruim,Inexistente
+Indique se nesta escola existem ou não os recursos apontados e quais são suas condiçoes de uso. Acesso à internet para uso dos professores.,Bom,Regular,Ruim,Inexistente
+Indique se nesta escola existem ou não os recursos apontados e quais são suas condiçoes de uso. Computadores exclusivamente para o uso administrativo.,Bom,Regular,Ruim,Inexistente
+Indique se nesta escola existem ou não os recursos apontados e quais são suas condiçoes de uso. Fitas de vídeo ou dvd (educativas).,Bom,Regular,Ruim,Inexistente
+Indique se nesta escola existem ou não os recursos apontados e quais são suas condiçoes de uso. Fitas de vídeo ou dvd (lazer).,Bom,Regular,Ruim,Inexistente
+Indique se nesta escola existem ou não os recursos apontados e quais são suas condiçoes de uso. Máquina copiadora.,Bom,Regular,Ruim,Inexistente
+Indique se nesta escola existem ou não os recursos apontados e quais são suas condiçoes de uso. Impressora.,Bom,Regular,Ruim,Inexistente
+Indique se nesta escola existem ou não os recursos apontados e quais são suas condiçoes de uso. Retroprojetor.,Bom,Regular,Ruim,Inexistente
+Indique se nesta escola existem ou não os recursos apontados e quais são suas condiçoes de uso. Projetor de slides.,Bom,Regular,Ruim,Inexistente
+Indique se nesta escola existem ou não os recursos apontados e quais são suas condiçoes de uso. Videocassete ou aparelho de dvd.,Bom,Regular,Ruim,Inexistente
+Indique se nesta escola existem ou não os recursos apontados e quais são suas condiçoes de uso. Televisão.,Bom,Regular,Ruim,Inexistente
+Indique se nesta escola existem ou não os recursos apontados e quais são suas condiçoes de uso. Mimeógrafo.,Bom,Regular,Ruim,Inexistente
+Indique se nesta escola existem ou não os recursos apontados e quais são suas condiçoes de uso. Câmera fotográfica.,Bom,Regular,Ruim,Inexistente
+Indique se nesta escola existem ou não os recursos apontados e quais são suas condiçoes de uso. Antena parabólica.,Bom,Regular,Ruim,Inexistente
+Indique se nesta escola existem ou não os recursos apontados e quais são suas condiçoes de uso. Internet com conexão Banda Larga.,Bom,Regular,Ruim,Inexistente
+Indique se nesta escola existem ou não os recursos apontados e quais são suas condiçoes de uso. Linha telefônica.,Bom,Regular,Ruim,Inexistente
+Indique se nesta escola existem ou não os recursos apontados e quais são suas condiçoes de uso. Aparelho de fax.,Bom,Regular,Ruim,Inexistente
+Indique se nesta escola existem ou não os recursos apontados e quais são suas condiçoes de uso. Aparelho de som.,Bom,Regular,Ruim,Inexistente
+Indique a existência e as condições de uso dos seguintes espaços da escola: Biblioteca.,Bom,Regular,Ruim,Inexistente
+Indique a existência e as condições de uso dos seguintes espaços da escola: Sala de leitura.,Bom,Regular,Ruim,Inexistente
+Indique a existência e as condições de uso dos seguintes espaços da escola: Quadra de esportes.,Bom,Regular,Ruim,Inexistente
+Indique a existência e as condições de uso dos seguintes espaços da escola: Laboratório de informática.,Bom,Regular,Ruim,Inexistente
+Indique a existência e as condições de uso dos seguintes espaços da escola: Laboratório de Ciências.,Bom,Regular,Ruim,Inexistente
+Indique a existência e as condições de uso dos seguintes espaços da escola: Auditório.,Bom,Regular,Ruim,Inexistente
+Indique a existência e as condições de uso dos seguintes espaços da escola: Sala para atividades de música.,Bom,Regular,Ruim,Inexistente
+Indique a existência e as condições de uso dos seguintes espaços da escola: Sala para atividades de artes pláticas.,Bom,Regular,Ruim,Inexistente
+Em relação à biblioteca ou sala de leitura:  Possui acervo diversificado que desperte o interesse dos alunos.,Sim,Não,Não há biblioteca/sala de leitura.,
+Em relação à biblioteca ou sala de leitura:  Possui brinquedoteca.,Sim,Não,Não há biblioteca/sala de leitura.,
+Em relação à biblioteca ou sala de leitura:  Possui espaço para estudos coletivos.,Sim,Não,Não há biblioteca/sala de leitura.,
+Em relação à biblioteca ou sala de leitura:  Os livros podem ser manuseados e emprestados.,Sim,Não,Não há biblioteca/sala de leitura.,
+Em relação à biblioteca ou sala de leitura:  A comunidade pode  utilzar o espaço e os livros.,Sim,Não,Não há biblioteca/sala de leitura.,
+Em relação à biblioteca ou sala de leitura:  O espaço é arejado e bem iluminado.,Sim,Não,Não há biblioteca/sala de leitura.,
+Em relação à biblioteca ou sala de leitura:  Existe uma pessoa responsável pelo atendimento na biblioteca ou na sala de leitura.,Sim,Não,Não há biblioteca/sala de leitura.,
+Os seguintes usuários da biblioteca (ou sala de leitura) levam livros para casa: Os alunos:,Sim.,"Não, porque não querem","Não, porque a escola não permite",Não há biblioteca/sala de leitura.
+Os seguintes usuários da biblioteca (ou sala de leitura) levam livros para casa: Os professores:,Sim.,"Não, porque não querem","Não, porque a escola não permite",Não há biblioteca/sala de leitura.
+Os seguintes usuários da biblioteca (ou sala de leitura) levam livros para casa: Os membros da comunidade:,Sim.,"Não, porque não querem","Não, porque a escola não permite",Não há biblioteca/sala de leitura.
