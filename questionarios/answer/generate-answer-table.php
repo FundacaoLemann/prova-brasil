@@ -24,17 +24,18 @@ while (($data = fgetcsv($handle, 5000, ",")) !== false) {
 
     // INSERT ROWS
     $answerInsertSql = "INSERT INTO `{$tableName}` SELECT 
-waitress_entities.state.id as 'state_id',
+(SELECT 
+    waitress_entities.state.id as 'state_id' FROM waitress_entities.state 
+    WHERE waitress_entities.state.ibge_id = {$data[1]}
+) as 'state_id',
 waitress_entities.city.id as 'city_id',
 {$data[4]},
 {$data[6]},
 '" . implode("','", $data) . "'
 FROM 
-waitress_entities.city,
-waitress_entities.state
+waitress_entities.city
 WHERE 
-waitress_entities.city.ibge_id = {$data[2]} AND
-waitress_entities.state.ibge_id = {$data[1]}
+waitress_entities.city.ibge_id = {$data[2]}
 ;";
 
     $output .= $answerInsertSql . PHP_EOL;
