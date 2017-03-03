@@ -2,7 +2,7 @@ DELIMITER ;;
 CREATE PROCEDURE `calc_survey_student_5_city_state_brasil`()
 BEGIN
   DECLARE done INT DEFAULT FALSE;
-  DECLARE _coluna varchar(5);
+  DECLARE _coluna varchar(15);
   DECLARE _num varchar(3);
   DECLARE _dependence VARCHAR(40);
   DECLARE _aggregation VARCHAR(40);
@@ -33,7 +33,7 @@ BEGIN
           q.id AS question_id,
           COUNT(*) AS total_surveys,
           SUM(is_filled) AS total_responses,
-          SUN(if(is_filled, :column = \'.\', 0)) AS invalid,
+          SUM(if(is_filled, :column = \'.\', 0)) AS invalid,
           SUM(:column = \'*\') AS erase,
           0 AS sampling_error
         FROM survey_students_responses_2015_5ano AS sdr
