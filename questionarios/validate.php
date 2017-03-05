@@ -1,79 +1,96 @@
 <?php
 
-$options = getopt('f:c:t:');
+$options = getopt('f:c:i:');
 
-$file       = $options['f'];
-$column     = $options['c'];
-$target     = $options['t'];
+$file           = $options['f'];
+$column         = $options['c'];
+$collumIsFilled = $options['i'];
 
-$count = 0;
-$countLessMasked = 0;
-$countAllMasked = 0;
 $totalLines = -1;
+$notFilled  = 0;
+$questionTitle = '';
 
-$invalidCount = 0;
-$invalidOptions = [];
-
-$validOptions = range('A', 'Z');
+$alternatives = [];
 
 $handle = fopen($file, "r");
 
+while (($data = fgetcsv($handle, 0, ",")) !== false) {
 
-while (($data = fgetcsv($handle, 5000, ",")) !== false) {
-
-	// Jump header
 	$totalLines++;
 
+	// Jump header
 	if ($totalLines === 0) {
+		$questionTitle = $data[$column];
+
 		continue;
 	}
 
-	if ($data[$column] == $target) {
-		$count++;
-	}
+	if (is_not_masked($data)) {
+		$alternatives[] = $data[$column];
 
-	if ($data[$column] == $target && strpos($data[3], '6') !== 0) {
-		$countLessMasked++;
-	}
-
-	if (strpos($data[3], '6') === 0) {
-		$countAllMasked++;
-	}
-
-	if (false === in_array($data[$column], $validOptions)) {
-		$invalidCount++;
-		$invalidOptions[] = $data[$column];
+		if ($data[$collumIsFilled] === '0') {
+			$notFilled++;
+		}
 	}
 }
 
-$amountQuestionnaireAnswered = $totalLines - $invalidCount;
-$amountQuestionnaireLessMasked = $totalLines - $countAllMasked;
+$appliedQuestionnaire  = count($alternatives);
+$answeredQuestionnaire = $appliedQuestionnaire - $notFilled;
 
-$percentage = ($count * 100) / $amountQuestionnaireAnswered;
-$percentageLessMasked = ($countLessMasked * 100) / $amountQuestionnaireLessMasked;
+$statsAlternatives = array_count_values($alternatives);
 
-$invalidOptionsCount = array_count_values($invalidOptions);
+$filteredAlternatives = array_filter($statsAlternatives, function ($value) {
 
-$amountQuestionnaireAnsweredLessMasked = $amountQuestionnaireAnswered - $countAllMasked;
+	$validOptions = range('A', 'Z');
+	$validOptions[] = '*';
+	$validOptions[] = '.';
 
-echo "Target: {$target}" . PHP_EOL;
-echo "Column: {$column}" . PHP_EOL;
+	if (in_array($value, $validOptions)) {
+		return true;
+	}
 
-echo "Questionarios Aplicados: {$totalLines}" . PHP_EOL;
-echo "Questionarios Aplicados:(menos mascarados) {$amountQuestionnaireLessMasked}" . PHP_EOL;
-echo "Questionarios Respondidos: {$amountQuestionnaireAnswered}" . PHP_EOL;
-echo "Questionarios Respondidos:(menos mascarados) {$amountQuestionnaireAnsweredLessMasked}" . PHP_EOL;
+	return false;
+}, ARRAY_FILTER_USE_KEY);
 
-echo "Masked: {$countAllMasked}" . PHP_EOL;
+$totalFilteredAlternatives = array_sum($filteredAlternatives);
 
-echo "Invalid answer: {$invalidCount}" . PHP_EOL;
+ksort($filteredAlternatives);
 
-echo "Option {$target} was found {$count} times" . PHP_EOL;
-echo "Option {$target} (menos mascarados) was found {$countLessMasked} times" . PHP_EOL;
+echo PHP_EOL;
+echo '------------------------------------------------------------------------' . PHP_EOL;
+echo '------------------------------------------------------------------------' . PHP_EOL;
 
-echo "Percentage: {$percentage}%" . PHP_EOL;
-echo "Percentage: (menos mascarados) {$percentageLessMasked}%" . PHP_EOL;
+echo PHP_EOL;
 
-var_dump($invalidOptionsCount);
+echo $questionTitle . PHP_EOL;
+
+echo PHP_EOL;
+
+echo "Total de linhas: \t\t" . number_format($totalLines) . PHP_EOL;
+echo PHP_EOL;
+echo "Questionarios Aplicados: \t" . number_format($appliedQuestionnaire) . PHP_EOL;
+echo "Questionarios Respondidos: \t" . number_format($answeredQuestionnaire) . PHP_EOL;
+
+echo PHP_EOL;
+echo '------------------------------------------------------------------------' . PHP_EOL;
+echo '------------------------------------------------------------------------' . PHP_EOL;
+echo PHP_EOL;
+
+echo "Alternativas" . PHP_EOL;
+
+foreach ($filteredAlternatives as $valueAlternative => $amountAlternative) {
+	$percentage = ($amountAlternative*100)/$totalFilteredAlternatives;
+
+	echo "{$valueAlternative}: \t" . number_format($amountAlternative) . "\t {$percentage}%" . PHP_EOL;
+}
 
 fclose($handle);
+
+/**
+ * Aux functions
+ */
+
+
+function is_not_masked($data) {
+	return strpos($data[3], '6') !== 0;
+}
