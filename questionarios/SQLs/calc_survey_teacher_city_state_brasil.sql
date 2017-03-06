@@ -139,4 +139,5 @@ BEGIN
 
   END LOOP;
   CLOSE opcoes;
-END ;;
+END;;
+DELIMITER ;
