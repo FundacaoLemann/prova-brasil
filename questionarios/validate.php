@@ -1,10 +1,16 @@
 <?php
 
-$options = getopt('f:c:i:');
+$options = getopt('f:c:i:', ['stateId:', 'stateColumn:', 'cityId:', 'cityColumn:', 'schoolId:', 'schoolColumn:']);
 
 $file           = $options['f'];
 $column         = $options['c'];
 $collumIsFilled = $options['i'];
+$stateId 		= $options['stateId'] ?? false;
+$stateColumn    = $options['stateColumn'] ?? false;
+$cityId 		= $options['cityId'] ?? false;
+$cityColumn     = $options['cityColumn'] ?? false;
+$schoolId 		= $options['schoolId'] ?? false;
+$schoolColumn   = $options['schoolColumn'] ?? false;
 
 $totalLines = -1;
 $notFilled  = 0;
@@ -22,6 +28,18 @@ while (($data = fgetcsv($handle, 0, ",")) !== false) {
 	if ($totalLines === 0) {
 		$questionTitle = $data[$column];
 
+		continue;
+	}
+
+	if ($stateId && $stateColumn && $stateId !== $data[$stateColumn]) {
+		continue;
+	}
+
+	if ($cityId && $cityColumn && $cityId !== $data[$cityColumn]) {
+		continue;
+	}
+
+	if ($schoolId && $schoolColumn && $schoolId !== $data[$schoolColumn]) {
 		continue;
 	}
 
