@@ -1,5 +1,5 @@
 DELIMITER ;;
-CREATE PROCEDURE `calcula_representatividade_questionarios`()
+CREATE PROCEDURE `calc_representatividade_questionarios`()
 BEGIN
 DECLARE done INT DEFAULT FALSE;
 
