@@ -134,7 +134,7 @@ SET @queryBrasil = REPLACE(@queryBrasil, ':survey_table', _survey_table);
 SET @queryBrasil = REPLACE(@queryBrasil, ':survey_question', _survey_question);
 SET @queryBrasil = REPLACE(@queryBrasil, ':edition_id', _edition_id);
 
-INSERT INTO log (message) VALUES (@queryBrasil);
+INSERT INTO log3 (message) VALUES (@queryBrasil);
 prepare stmtBrasil FROM @queryBrasil;
 EXECUTE stmtBrasil;
 
