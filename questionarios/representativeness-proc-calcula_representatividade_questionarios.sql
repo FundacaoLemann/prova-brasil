@@ -46,7 +46,7 @@ SET @querySchool = REPLACE(@querySchool, ':survey_table', _survey_table);
 SET @querySchool = REPLACE(@querySchool, ':survey_question', _survey_question);
 SET @querySchool = REPLACE(@querySchool, ':edition_id', _edition_id);
 
-INSERT INTO log (message) VALUES (@querySchool);
+INSERT INTO log3 (message) VALUES (@querySchool);
 prepare stmtSchool FROM @querySchool;
 EXECUTE stmtSchool;
 
@@ -75,7 +75,7 @@ SET @queryCities = REPLACE(@queryCities, ':survey_table', _survey_table);
 SET @queryCities = REPLACE(@queryCities, ':survey_question', _survey_question);
 SET @queryCities = REPLACE(@queryCities, ':edition_id', _edition_id);
 
-INSERT INTO log (message) VALUES (@queryCities);
+INSERT INTO log3 (message) VALUES (@queryCities);
 prepare stmtCities FROM @queryCities;
 EXECUTE stmtCities;
 
@@ -106,7 +106,7 @@ SET @queryStates = REPLACE(@queryStates, ':survey_table', _survey_table);
 SET @queryStates = REPLACE(@queryStates, ':survey_question', _survey_question);
 SET @queryStates = REPLACE(@queryStates, ':edition_id', _edition_id);
 
-INSERT INTO log (message) VALUES (@queryStates);
+INSERT INTO log3 (message) VALUES (@queryStates);
 prepare stmtStates FROM @queryStates;
 EXECUTE stmtStates;
 
