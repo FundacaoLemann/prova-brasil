@@ -1,5 +1,5 @@
 DELIMITER ;;
-CREATE PROCEDURE `calc_representatividade_questionarios`()
+CREATE DEFINER=`meritt`@`%` PROCEDURE `calc_representatividade_questionarios`()
 BEGIN
 DECLARE done INT DEFAULT FALSE;
 
@@ -8,10 +8,10 @@ DECLARE _survey_table VARCHAR(50);
 DECLARE _survey_question int;
 DECLARE _edition_id int;
 
-DECLARE opcoes CURSOR FOR       select 1 as survey_id, 2000 as survey_question, 'fact_question_director'   as survey_table, 6 as edition_id
-                          union select 2 as survey_id, 2111 as survey_question, 'fact_question_teacher'    as survey_table, 6 as edition_id
-                          union select 4 as survey_id, 2304 as survey_question, 'fact_question_students_5' as survey_table, 6 as edition_id
-                          union select 5 as survey_id, 2355 as survey_question, 'fact_question_students_9' as survey_table, 6 as edition_id;
+DECLARE opcoes CURSOR FOR       select 1 as survey_id, 3000 as survey_question, 'fact_question_director'   as survey_table, 7 as edition_id
+                          union select 2 as survey_id, 3111 as survey_question, 'fact_question_teacher'    as survey_table, 7 as edition_id
+                          union select 4 as survey_id, 3304 as survey_question, 'fact_question_students_5' as survey_table, 7 as edition_id
+                          union select 5 as survey_id, 3355 as survey_question, 'fact_question_students_9' as survey_table, 7 as edition_id;
 DECLARE CONTINUE HANDLER FOR NOT FOUND SET done = TRUE;
 
 OPEN opcoes;
@@ -33,11 +33,11 @@ SET @querySchool = '
         :edition_id,
         f.total_surveys,
         f.total_responses,
-        (total_responses - invalid_responses - erase_responses) as \'valid\',
+        (CAST(total_surveys AS SIGNED) - CAST(invalid_responses AS SIGNED) - CAST(erase_responses AS SIGNED)) as \'valid\',
         NULL
     from :survey_table as f
-    inner join dim_regional_aggregation as dra on dra.id = dim_regional_aggregation_id
-    inner join dim_politic_aggregation as dpa on dpa.id = dim_politic_aggregation_id
+    inner join waitress_dw_prova_brasil.dim_regional_aggregation as dra on dra.id = dim_regional_aggregation_id
+    inner join waitress_dw_prova_brasil.dim_politic_aggregation as dpa on dpa.id = dim_politic_aggregation_id
     where f.question_id = :survey_question and school_id != 0';
 
 
@@ -60,12 +60,12 @@ SET @queryCities = '
         :edition_id,
         f.total_surveys,
         f.total_responses,
-        (total_responses - invalid_responses - erase_responses) as \'valid\',
+        (CAST(total_surveys AS SIGNED) - CAST(invalid_responses AS SIGNED) - CAST(erase_responses AS SIGNED)) as \'valid\',
         count(s.id) as num_schools
     from :survey_table as f
-    inner join dim_regional_aggregation as dra on dra.id = dim_regional_aggregation_id
-    inner join dim_politic_aggregation as dpa on dpa.id = dim_politic_aggregation_id
-    inner join school as s on s.city_id = dra.city_id and s.state_id = dra.state_id and s.edition_id = :edition_id
+    inner join waitress_dw_prova_brasil.dim_regional_aggregation as dra on dra.id = dim_regional_aggregation_id
+    inner join waitress_dw_prova_brasil.dim_politic_aggregation as dpa on dpa.id = dim_politic_aggregation_id
+    inner join waitress_dw_prova_brasil.school as s on s.city_id = dra.city_id and s.state_id = dra.state_id and s.edition_id = :edition_id
     where f.question_id = :survey_question and school_id = 0 and dra.city_id != 0 and dpa.dependence_id = 0 and dpa.localization_id = 0 and dpa.grade_id = 0
     group by dra.city_id;';
 
@@ -89,12 +89,12 @@ SET @queryStates = '
         :edition_id,
         f.total_surveys,
         f.total_responses,
-        (total_responses - invalid_responses - erase_responses) as \'valid\',
+        (CAST(total_surveys AS SIGNED) - CAST(invalid_responses AS SIGNED) - CAST(erase_responses AS SIGNED)) as \'valid\',
         count(s.id)
     from :survey_table as f
-    inner join dim_regional_aggregation as dra on dra.id = dim_regional_aggregation_id
-    inner join dim_politic_aggregation as dpa on dpa.id = dim_politic_aggregation_id
-    inner join school as s on s.state_id = dra.state_id and s.edition_id = :edition_id
+    inner join waitress_dw_prova_brasil.dim_regional_aggregation as dra on dra.id = dim_regional_aggregation_id
+    inner join waitress_dw_prova_brasil.dim_politic_aggregation as dpa on dpa.id = dim_politic_aggregation_id
+    inner join waitress_dw_prova_brasil.school as s on s.state_id = dra.state_id and s.edition_id = :edition_id
     inner join waitress_entities.state as st on dra.state_id = st.id
     where f.question_id = :survey_question and dra.state_id not in (0, 100) and dra.city_id = 0 and city_group_id = 0 and dpa.dependence_id = 0 and dpa.localization_id = 0 and dpa.grade_id = 0
     group by dra.state_id;
@@ -120,12 +120,12 @@ SET @queryBrasil = '
         :edition_id,
         f.total_surveys,
         f.total_responses,
-        (total_responses - invalid_responses - erase_responses) as \'valid\',
+        (CAST(total_surveys AS SIGNED) - CAST(invalid_responses AS SIGNED) - CAST(erase_responses AS SIGNED)) as \'valid\',
         count(s.id)
     from :survey_table as f
-    inner join dim_regional_aggregation as dra on dra.id = dim_regional_aggregation_id
-    inner join dim_politic_aggregation as dpa on dpa.id = dim_politic_aggregation_id
-    inner join school as s on s.edition_id = :edition_id
+    inner join waitress_dw_prova_brasil.dim_regional_aggregation as dra on dra.id = dim_regional_aggregation_id
+    inner join waitress_dw_prova_brasil.dim_politic_aggregation as dpa on dpa.id = dim_politic_aggregation_id
+    inner join waitress_dw_prova_brasil.school as s on s.edition_id = :edition_id
     where f.question_id = :survey_question and dra.state_id = 100 and dra.city_id = 0 and city_group_id = 0 and dpa.dependence_id = 0 and dpa.localization_id = 0 and dpa.grade_id = 0
     group by dpa.edition_id;';
 
@@ -143,4 +143,5 @@ END LOOP;
 
 CLOSE opcoes;
 
-END ;;
+END;;
+DELIMITER ;
